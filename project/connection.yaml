@@ -1,0 +1,9 @@
+type: postgres
+host: ${REPORT_DB_HOST}
+port: 5432
+user: ${REPORT_DB_USER}
+password: ${REPORT_DB_PASSWORD}
+database: ${REPORT_DB_NAME}
+sslmode: ${REPORT_DB_SSLMODE}
+schema: reporting
+schemas: [reporting]

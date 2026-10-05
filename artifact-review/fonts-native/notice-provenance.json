@@ -1,0 +1,195 @@
+{
+  "scope": "Original notice texts for the finite fonts/native source-recipe followup. Collection membership is not a claim of final artifact inclusion. Adobe/Google font family texts and GNU texts do not establish the actual native/font subset's complete license selection.",
+  "rows": [
+    {
+      "file": "notices/recipe-LICENSE.txt",
+      "sourceSha256": "e15a890ea497aab01d120d80eb10178fc3ba493a6e93a6bb4c2549a2ffe7830d",
+      "sourceBytes": 1083,
+      "primary": "Owner-authorized recipe LICENSE (local source)",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "none",
+      "deliveredSha256": "e15a890ea497aab01d120d80eb10178fc3ba493a6e93a6bb4c2549a2ffe7830d",
+      "deliveredBytes": 1083
+    },
+    {
+      "file": "notices/Evidence-LICENSE.txt",
+      "sourceSha256": "818e8dba24d293850aa1f7804d330512fdf29c5cd2b304235602d3176084534c",
+      "sourceBytes": 1065,
+      "primary": "https://raw.githubusercontent.com/evidence-dev/evidence/474ef4564f00e84991a055a3196fb32fd9d8d63a/LICENSE",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "none",
+      "deliveredSha256": "818e8dba24d293850aa1f7804d330512fdf29c5cd2b304235602d3176084534c",
+      "deliveredBytes": 1065
+    },
+    {
+      "file": "notices/Evidence-patch-notices.txt",
+      "sourceSha256": "85035f01c93aaf5e8e1fd0fd265b08991e7791a51a1edfabce720e546b992e37",
+      "sourceBytes": 849,
+      "primary": "https://raw.githubusercontent.com/evidence-dev/evidence/474ef4564f00e84991a055a3196fb32fd9d8d63a/patches/THIRD-PARTY-NOTICES.md",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "none",
+      "deliveredSha256": "85035f01c93aaf5e8e1fd0fd265b08991e7791a51a1edfabce720e546b992e37",
+      "deliveredBytes": 849
+    },
+    {
+      "file": "notices/Bun-1.3.11-LICENSE.md",
+      "sourceSha256": "7068a9711ef8196d654e143447ed7976b3678ce21145b9da16e1f786528f15bb",
+      "sourceBytes": 4506,
+      "primary": "https://raw.githubusercontent.com/oven-sh/bun/a04817ce2b7f1a1e8b7cbf8af8f2c027ab072f1d/LICENSE.md",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "CRLF converted to LF and/or final LF added; original exact UTF-8 available in original-exact-texts.json",
+      "deliveredSha256": "4e742b51000ef3904d9923e2a06a696136ff8f957856cef83076ea3b577f313d",
+      "deliveredBytes": 4507
+    },
+    {
+      "file": "notices/Node-24.20.0-LICENSE.txt",
+      "sourceSha256": "5888dbb9a1d2b18f2c3e6c5f6af1b39de658372b402a0577b002777f14c62ace",
+      "sourceBytes": 157609,
+      "primary": "https://raw.githubusercontent.com/nodejs/node/v24.20.0/LICENSE",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "none",
+      "deliveredSha256": "5888dbb9a1d2b18f2c3e6c5f6af1b39de658372b402a0577b002777f14c62ace",
+      "deliveredBytes": 157609
+    },
+    {
+      "file": "notices/PostgreSQL-16.15-COPYRIGHT.txt",
+      "sourceSha256": "3d6af92ff8a4c2cdf69afb1cf44edea727922f5cd0cf8b5f72b11cdecac8fdfd",
+      "sourceBytes": 1198,
+      "primary": "https://raw.githubusercontent.com/postgres/postgres/REL_16_15/COPYRIGHT",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "none",
+      "deliveredSha256": "3d6af92ff8a4c2cdf69afb1cf44edea727922f5cd0cf8b5f72b11cdecac8fdfd",
+      "deliveredBytes": 1198
+    },
+    {
+      "file": "notices/geist-LICENSE.txt",
+      "sourceSha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90",
+      "sourceBytes": 4383,
+      "primary": "https://raw.githubusercontent.com/evidence-dev/evidence/474ef4564f00e84991a055a3196fb32fd9d8d63a/cli/static/fonts/geist/LICENSE.txt",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "CRLF converted to LF and/or final LF added; original exact UTF-8 available in original-exact-texts.json",
+      "deliveredSha256": "2b2da563e79400b61818402ca9f26a73d52468268b7fc715e92143c1e799737e",
+      "deliveredBytes": 4384
+    },
+    {
+      "file": "notices/geist-mono-LICENSE.txt",
+      "sourceSha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+      "sourceBytes": 4368,
+      "primary": "https://raw.githubusercontent.com/evidence-dev/evidence/474ef4564f00e84991a055a3196fb32fd9d8d63a/cli/static/fonts/geist-mono/LICENSE.txt",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "none",
+      "deliveredSha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+      "deliveredBytes": 4368
+    },
+    {
+      "file": "notices/noto-color-emoji-LICENSE.txt",
+      "sourceSha256": "500bb1ccf43df7bbb522112f9133a52b16e1c35e809632f5d8609b179152de5b",
+      "sourceBytes": 4330,
+      "primary": "https://raw.githubusercontent.com/evidence-dev/evidence/474ef4564f00e84991a055a3196fb32fd9d8d63a/cli/static/fonts/noto-color-emoji/LICENSE.txt",
+      "provenance": "r1 cached original; source hash checked; not refetched this pass",
+      "normalization": "none",
+      "deliveredSha256": "500bb1ccf43df7bbb522112f9133a52b16e1c35e809632f5d8609b179152de5b",
+      "deliveredBytes": 4330
+    },
+    {
+      "file": "notices/fira-mono-5.2.7-LICENSE.txt",
+      "sourceSha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "sourceBytes": 4314,
+      "primary": "https://registry.npmjs.org/@fontsource%2Ffira-mono/5.2.7",
+      "provenance": "cached-build-notice",
+      "normalization": "none",
+      "deliveredSha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "deliveredBytes": 4314
+    },
+    {
+      "file": "notices/echarts-6.1.0-LICENSE.txt",
+      "sourceSha256": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+      "sourceBytes": 11990,
+      "primary": "https://registry.npmjs.org/echarts/6.1.0",
+      "provenance": "cached-build-notice",
+      "normalization": "none",
+      "deliveredSha256": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+      "deliveredBytes": 11990
+    },
+    {
+      "file": "notices/echarts-6.1.0-NOTICE.txt",
+      "sourceSha256": "d491d358344f842685c1b1585970999db65fe30ecf7ef3867af8814f4016c016",
+      "sourceBytes": 168,
+      "primary": "https://registry.npmjs.org/echarts/6.1.0",
+      "provenance": "cached-build-notice",
+      "normalization": "CRLF converted to LF and/or final LF added; original exact UTF-8 available in original-exact-texts.json",
+      "deliveredSha256": "88c2418a8ab4dba3486b263600ab39e0c78c36142ddfa4167ed3d9c3a2d2ab38",
+      "deliveredBytes": 169
+    },
+    {
+      "file": "notices/echarts-6.1.0-LICENSE-d3.txt",
+      "sourceSha256": "e1211892da0b0e0585b7aebe8f98c1274fba15bafe47fa1f4ee8a7a502c06304",
+      "sourceBytes": 1475,
+      "primary": "https://registry.npmjs.org/echarts/6.1.0",
+      "provenance": "cached-build-notice",
+      "normalization": "none",
+      "deliveredSha256": "e1211892da0b0e0585b7aebe8f98c1274fba15bafe47fa1f4ee8a7a502c06304",
+      "deliveredBytes": 1475
+    },
+    {
+      "file": "notices/ssf-0.11.2-LICENSE.txt",
+      "sourceSha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26",
+      "sourceBytes": 11355,
+      "primary": "https://registry.npmjs.org/ssf/0.11.2",
+      "provenance": "cached-build-notice",
+      "normalization": "none",
+      "deliveredSha256": "279ce5f639ecd1767f96948f9fbe6f0aa8145cb280cf98473fb366eab5e6de26",
+      "deliveredBytes": 11355
+    },
+    {
+      "file": "notices/zrender-6.1.0-LICENSE.txt",
+      "sourceSha256": "a681e9d183c72b4af4856935893805eb48c08f0f5a3f260203db7444c20fb98a",
+      "sourceBytes": 1509,
+      "primary": "https://registry.npmjs.org/zrender/6.1.0",
+      "provenance": "cached-build-notice",
+      "normalization": "CRLF converted to LF and/or final LF added; original exact UTF-8 available in original-exact-texts.json",
+      "deliveredSha256": "55ea01207028f76d844678511f29fc800f8a1e67a8a0fe80470128677847ad32",
+      "deliveredBytes": 1510
+    },
+    {
+      "file": "notices/Adobe-4.004R-LICENSE.txt",
+      "sourceSha256": "bb1e7cb76848ee07553f92081428cd5e6eb41a85b65114cb15cc66d22718bf27",
+      "sourceBytes": 4578,
+      "primary": "https://raw.githubusercontent.com/adobe-fonts/source-serif/a9eaef81588dddd479f2275d87b3707ed7ae2847/LICENSE.md",
+      "provenance": "bounded primary GET this pass",
+      "normalization": "CRLF converted to LF and/or final LF added; original exact UTF-8 available in original-exact-texts.json",
+      "deliveredSha256": "acb2b8ba7420e412cd26f7d2b05d1692951ea8c6f4118a3a2c903a0f1fff1feb",
+      "deliveredBytes": 4485
+    },
+    {
+      "file": "notices/lgpl-2.0-LICENSE.txt",
+      "sourceSha256": "cc535c21133c895b56b374c8a1dc1eb948d99003ed2b47372069456b62f42b24",
+      "sourceBytes": 25270,
+      "primary": "https://www.gnu.org/licenses/old-licenses/lgpl-2.0.txt",
+      "provenance": "bounded primary GET this pass",
+      "normalization": "none",
+      "deliveredSha256": "cc535c21133c895b56b374c8a1dc1eb948d99003ed2b47372069456b62f42b24",
+      "deliveredBytes": 25270
+    },
+    {
+      "file": "notices/lgpl-2.1-LICENSE.txt",
+      "sourceSha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+      "sourceBytes": 26419,
+      "primary": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+      "provenance": "bounded primary GET this pass",
+      "normalization": "none",
+      "deliveredSha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+      "deliveredBytes": 26419
+    },
+    {
+      "file": "notices/Google-SourceSerif4-OFL-comparison.txt",
+      "sourceSha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "sourceBytes": 4400,
+      "primary": "https://raw.githubusercontent.com/google/fonts/08dc85da6bca7ae308a6f1d38d0b137465646071/ofl/sourceserif4/OFL.txt",
+      "provenance": "bounded primary GET this pass",
+      "normalization": "none",
+      "deliveredSha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "deliveredBytes": 4400
+    }
+  ]
+}

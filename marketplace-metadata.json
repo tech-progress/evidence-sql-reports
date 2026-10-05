@@ -1,0 +1,12 @@
+{
+  "directory": "evidence-sql-reports",
+  "name": "Evidence SQL reports",
+  "category": "Analytics",
+  "description": "Protected SQL freshness and reconciliation reports on PostgreSQL.",
+  "icon": "https://raw.githubusercontent.com/evidence-dev/media-kit/main/favicon/icon.svg",
+  "origins": [
+    {"name":"Evidence","url":"https://github.com/evidence-dev/evidence"},
+    {"name":"PostgreSQL","url":"https://www.postgresql.org"},
+    {"name":"Node.js","url":"https://nodejs.org"}
+  ]
+}

@@ -1,0 +1,425 @@
+[
+  {
+    "name": "@75lb/deep-merge",
+    "version": "1.1.4",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/%4075lb%2Fdeep-merge/1.1.4",
+    "integrity": "sha512-Fjmi8VSxoGF80wn8HSHTPfUKLSJ+aiQE7rXyrFV6apP8Xyj8v4bqdC7BBoklxjt671gUqP0yREwpDlUP5R/VyQ==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-http",
+    "version": "3.972.26",
+    "declaredLicense": "Apache-2.0",
+    "primary": "https://registry.npmjs.org/%40aws-sdk%2Fcredential-provider-http/3.972.26",
+    "integrity": "sha512-CY4ppZ+qHYqcXqBVi//sdHST1QK3KzOEiLtpLsc9W2k2vfZPKExGaQIsOwcyvjpjUEolotitmd3mUNY56IwDEA==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-login",
+    "version": "3.972.28",
+    "declaredLicense": "Apache-2.0",
+    "primary": "https://registry.npmjs.org/%40aws-sdk%2Fcredential-provider-login/3.972.28",
+    "integrity": "sha512-ZSTfO6jqUTCysbdBPtEX5OUR//3rbD0lN7jO3sQeS2Gjr/Y+DT6SbIJ0oT2cemNw3UzKu97sNONd1CwNMthuZQ==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "@aws-sdk/nested-clients",
+    "version": "3.996.18",
+    "declaredLicense": "Apache-2.0",
+    "primary": "https://registry.npmjs.org/%40aws-sdk%2Fnested-clients/3.996.18",
+    "integrity": "sha512-c7ZSIXrESxHKx2Mcopgd8AlzZgoXMr20fkx5ViPWPOLBvmyhw9VwJx/Govg8Ef/IhEon5R9l53Z8fdYSEmp6VA==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "@databricks/databricks-sql-kernel-linux-x64-gnu",
+    "version": "0.2.0",
+    "declaredLicense": "Apache-2.0",
+    "primary": "https://registry.npmjs.org/%40databricks%2Fdatabricks-sql-kernel-linux-x64-gnu/0.2.0",
+    "integrity": "sha512-wIEJX2mtoCc/KGOzzbxXwOR5aUB5dBSUG1Ypp+JLI28XsZB2eCLcP4jyAQ+Uklxn+SU1hICuok+30t/7wSvKUg==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "@neoconfetti/svelte",
+    "version": "2.2.2",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/%40neoconfetti%2Fsvelte/2.2.2",
+    "integrity": "sha512-E7xCFVEEm5Ctnj2udTJy1b9oaTvjz1zi1mYdEtE8rB5BVwq6kHisosDS+zdWN5PMfEMjtbsOV9Cl6tsNSAD1sA==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "@nodable/entities",
+    "version": "2.1.1",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/%40nodable%2Fentities/2.1.1",
+    "integrity": "sha512-Pig3HxDIoMgjdEH8OCf/dkcTmLFjJRjWuq8jSnklu284/TKOPibSRERmOykiwmyXTtv61mP+44f3GMx0tLAyjg==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "@polka/url",
+    "version": "1.0.0-next.29",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/%40polka%2Furl/1.0.0-next.29",
+    "integrity": "sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "@posthog/core",
+    "version": "1.14.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/%40posthog%2Fcore/1.14.0",
+    "integrity": "sha512-havjGYHwL8Gy6LXIR911h+M/sYlJLQbepxP/cc1M7Cp3v8F92bzpqkbuvUIUyb7/izkxfGwc9wMqKAo0QxMTrg==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "agent-base",
+    "version": "6.0.2",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/agent-base/6.0.2",
+    "integrity": "sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "asn1.js-rfc2560",
+    "version": "5.0.1",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/asn1.js-rfc2560/5.0.1",
+    "integrity": "sha512-1PrVg6kuBziDN3PGFmRk3QrjpKvP9h/Hv5yMrFZvC1kpzP6dQRzf5BpKstANqHBkaOUmTpakJWhicTATOA/SbA==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "asn1.js-rfc5280",
+    "version": "3.0.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/asn1.js-rfc5280/3.0.0",
+    "integrity": "sha512-Y2LZPOWeZ6qehv698ZgOGGCZXBQShObWnGthTrIFlIQjuV1gg2B8QOhWFRExq/MR1VnPpIIe7P9vX2vElxv+Pg==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "big.js",
+    "version": "6.2.2",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/big.js/6.2.2",
+    "integrity": "sha512-y/ie+Faknx7sZA5MfGA2xKlu0GDv8RWrXGsmlteyJQ2lvoKv9GBK/fpRMc2qlSoBAgNxrixICFCBefIq8WCQpQ==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "bignumber.js",
+    "version": "9.3.1",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/bignumber.js/9.3.1",
+    "integrity": "sha512-Ko0uX15oIUS7wJ3Rb30Fs6SkVbLmPBAKdlm7q9+ak9bbIeFf0MwuBsQV6z7+X768/cHsfg+WlysDWJcmthjsjQ==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "cuint",
+    "version": "0.2.2",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/cuint/0.2.2",
+    "integrity": "sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "data-uri-to-buffer",
+    "version": "4.0.1",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/data-uri-to-buffer/4.0.1",
+    "integrity": "sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "decimal.js",
+    "version": "10.6.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/decimal.js/10.6.0",
+    "integrity": "sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "degenerator",
+    "version": "5.0.1",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/degenerator/5.0.1",
+    "integrity": "sha512-TllpMR/t0M5sqCXfj85i4XaAzxmS5tVA16dqvdkMwGmzI+dXLXnw3J+3Vdv7VKw+ThlTMboK6i9rnZ6Nntj5CQ==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "dlv",
+    "version": "1.1.3",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/dlv/1.1.3",
+    "integrity": "sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "esrecurse",
+    "version": "4.3.0",
+    "declaredLicense": "BSD-2-Clause",
+    "primary": "https://registry.npmjs.org/esrecurse/4.3.0",
+    "integrity": "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "fsevents",
+    "version": "2.3.3",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/fsevents/2.3.3",
+    "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "generic-pool",
+    "version": "3.9.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/generic-pool/3.9.0",
+    "integrity": "sha512-hymDOu5B53XvN4QT9dBmZxPX4CWhBPPLguTZ9MMFeFa/Kg0xWVfylOVNlJji/E7yTZWFd/q9GO5TxDLq156D7g==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "http-proxy-agent",
+    "version": "5.0.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/http-proxy-agent/5.0.0",
+    "integrity": "sha512-n2hY8YdoRE1i7r6M0w9DIw5GgZN0G25P8zLCRQ8rjXtTU3vsNFBI/vWK/UIeE6g5MUUz6avwAPXmL6Fy9D/90w==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "https-proxy-agent",
+    "version": "5.0.1",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/https-proxy-agent/5.0.1",
+    "integrity": "sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "imurmurhash",
+    "version": "0.1.4",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/imurmurhash/0.1.4",
+    "integrity": "sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "is-reference",
+    "version": "3.0.3",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/is-reference/3.0.3",
+    "integrity": "sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "isarray",
+    "version": "1.0.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/isarray/1.0.0",
+    "integrity": "sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "keyv",
+    "version": "4.5.4",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/keyv/4.5.4",
+    "integrity": "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "locate-character",
+    "version": "3.0.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/locate-character/3.0.0",
+    "integrity": "sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "memoize-weak",
+    "version": "1.0.2",
+    "declaredLicense": "ISC",
+    "primary": "https://registry.npmjs.org/memoize-weak/1.0.2",
+    "integrity": "sha512-gj39xkrjEw7nCn4nJ1M5ms6+MyMlyiGmttzsqAUsAKn6bYKwuTHh/AO3cKPF8IBrTIYTxb0wWXFs3E//Y8VoWQ==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "murmurhash-js",
+    "version": "1.0.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/murmurhash-js/1.0.0",
+    "integrity": "sha512-TvmkNhkv8yct0SVBSy+o8wYzXjE4Zz3PCesbfs8HiCXXdcTuocApFv11UWlNFWKYsP2okqrhb7JNlSm9InBhIw==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "natural-compare",
+    "version": "1.4.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/natural-compare/1.4.0",
+    "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "pg-types",
+    "version": "2.2.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/pg-types/2.2.0",
+    "integrity": "sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "pgpass",
+    "version": "1.0.5",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/pgpass/1.0.5",
+    "integrity": "sha512-FdW9r/jQZhSeohs1Z3sI1yxFQNFvMcnmfuj4WBMUTxOrAyLMaTcE1aAMBiTlbMNaXvBCQuVi0R7hd8udDSP7ug==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "saxes",
+    "version": "5.0.1",
+    "declaredLicense": "ISC",
+    "primary": "https://registry.npmjs.org/saxes/5.0.1",
+    "integrity": "sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "saxes",
+    "version": "6.0.0",
+    "declaredLicense": "ISC",
+    "primary": "https://registry.npmjs.org/saxes/6.0.0",
+    "integrity": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "sirv",
+    "version": "3.0.2",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/sirv/3.0.2",
+    "integrity": "sha512-2wcC/oGxHis/BoHkkPwldgiPSYcpZK3JU28WoMVv55yHJgcZ8rlXvuG9iZggz+sU1d4bRgIGASwyWqjxu3FM0g==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "stackback",
+    "version": "0.0.2",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/stackback/0.0.2",
+    "integrity": "sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "std-env",
+    "version": "4.0.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/std-env/4.0.0",
+    "integrity": "sha512-zUMPtQ/HBY3/50VbpkupYHbRroTRZJPRLvreamgErJVys0ceuzMkD44J/QjqhHjOzK42GQ3QZIeFG1OYfOtKqQ==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "stream-events",
+    "version": "1.0.5",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/stream-events/1.0.5",
+    "integrity": "sha512-E1GUzBSgvct8Jsb3v2X15pjzN1tYebtbLaMg+eBOUOAxgbLoSbT2NS91ckc5lJD1KfLjId+jXJRgo0qnV5Nerg==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "stubs",
+    "version": "3.0.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/stubs/3.0.0",
+    "integrity": "sha512-PdHt7hHUJKxvTCgbKX9C1V/ftOcjJQgz8BZwNfV5c4B6dcGqlpelTbJ999jBGZ2jYiPAwcX5dP6oBwVlBlUbxw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "tiny-case",
+    "version": "1.0.3",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/tiny-case/1.0.3",
+    "integrity": "sha512-Eet/eeMhkO6TX8mnUteS9zgPbUMQa4I6Kkp5ORiBD5476/m+PIRiumP5tmh5ioJpH7k51Kehawy2UDfsnxxY8Q==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "tinyrainbow",
+    "version": "3.1.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/tinyrainbow/3.1.0",
+    "integrity": "sha512-Bf+ILmBgretUrdJxzXM0SgXLZ3XfiaUuOj/IKQHuTXip+05Xn+uyEYdVg0kYDipTBcLrCVyUzAPz7QmArb0mmw==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "tr46",
+    "version": "0.0.3",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/tr46/0.0.3",
+    "integrity": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "ts-deepmerge",
+    "version": "8.0.0",
+    "declaredLicense": "ISC",
+    "primary": "https://registry.npmjs.org/ts-deepmerge/8.0.0",
+    "integrity": "sha512-133O+10nJmVI8w5xeVZPEv5PIrv7iaUae07wv1aH8XJH95Ur6YIhWAPhPyP1YPlbPS9fCVcNIZTu7m8urRVF0A==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  },
+  {
+    "name": "type-fest",
+    "version": "2.19.0",
+    "declaredLicense": "(MIT OR CC0-1.0)",
+    "primary": "https://registry.npmjs.org/type-fest/2.19.0",
+    "integrity": "sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==",
+    "noticeTextsRecovered": 1,
+    "disposition": "original notice recovered; preserve alongside artifact"
+  },
+  {
+    "name": "xml-naming",
+    "version": "0.1.0",
+    "declaredLicense": "MIT",
+    "primary": "https://registry.npmjs.org/xml-naming/0.1.0",
+    "integrity": "sha512-k8KO9hrMyNk6tUWqUfkTEZbezRRpONVOzUTnc97VnCvyj6Tf9lyUR9EDAIeiVLv56jsMcoXEwjW8Kv5yPY52lw==",
+    "noticeTextsRecovered": 0,
+    "disposition": "primary published license declaration recovered; original attribution/grant text to complete if included in artifact"
+  }
+]

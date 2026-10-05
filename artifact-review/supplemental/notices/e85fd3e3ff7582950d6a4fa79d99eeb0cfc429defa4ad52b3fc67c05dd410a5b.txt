@@ -1,0 +1,4 @@
+## License
+
+MIT License
+© [Puru Vijay](https://twitter.com/puruvjdev)

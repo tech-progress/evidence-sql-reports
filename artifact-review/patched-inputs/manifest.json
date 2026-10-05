@@ -1,0 +1,20 @@
+[
+  {
+    "upstreamPath": "patches/echarts@6.1.0.patch",
+    "sha256": "c4fba7b934fb5461d0103679806d7cf39c7d4b90abd8932109204b749eb158f0",
+    "bytes": 5426,
+    "primary": "https://github.com/evidence-dev/evidence/blob/474ef4564f00e84991a055a3196fb32fd9d8d63a/patches/echarts@6.1.0.patch"
+  },
+  {
+    "upstreamPath": "patches/ssf.patch",
+    "sha256": "c40c6a0f52b0c7f7aa7761581b07b2007c0333801afd43a658079b4b5c1848a1",
+    "bytes": 3552,
+    "primary": "https://github.com/evidence-dev/evidence/blob/474ef4564f00e84991a055a3196fb32fd9d8d63a/patches/ssf.patch"
+  },
+  {
+    "upstreamPath": "patches/zrender.patch",
+    "sha256": "6c89c6942298cbd600e8d89541b0f897fcb3e49cb34e130f12efec8edf982af7",
+    "bytes": 2254,
+    "primary": "https://github.com/evidence-dev/evidence/blob/474ef4564f00e84991a055a3196fb32fd9d8d63a/patches/zrender.patch"
+  }
+]

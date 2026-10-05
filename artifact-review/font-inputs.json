@@ -1,0 +1,86 @@
+[
+  {
+    "upstreamPath": "cli/static/fonts/geist/Geist-Variable.woff2",
+    "sha256": "2ffebe993e969069a9789d15164b7715d42491b5835516c5e3b935d5f81b05f1",
+    "bytes": 69760,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/geist-mono/GeistMono-Variable.woff2",
+    "sha256": "3ef2c50dc1042ebfa89ca66bb6901e9dde5737970547c21b4de7a44dfb2ab948",
+    "bytes": 58092,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-0.woff2",
+    "sha256": "1ea085e149cb9e5f1ac086f0580f7dc10d6cc06cb2e29caa8a7360064a7eadd6",
+    "bytes": 709628,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-1.woff2",
+    "sha256": "c87e948953bc90e38ba25d711f65377a62aef4e4a7cce272e1c6d8c315e4da41",
+    "bytes": 14812,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-2.woff2",
+    "sha256": "d500497beb107cb122df6b65452c8bd9699c9078b9ae5f35bb82696a8cce6f60",
+    "bytes": 64244,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-3.woff2",
+    "sha256": "33d863891fc666d3bcd03700f344ef50da89cf005b10d0022b5d196ac18b3596",
+    "bytes": 164600,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-4.woff2",
+    "sha256": "f7848ab453b11441c20792f91c202ee98bcdcc223609e8cda6930d5f947c3d68",
+    "bytes": 99672,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-5.woff2",
+    "sha256": "59ec028a34d2c3cb6e670d4fd231d7d61895b560738daa6ff4b956643ffe4aac",
+    "bytes": 118504,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-6.woff2",
+    "sha256": "732541f93fcf33bb4919aa42f865f242a1d3f3428fd68c659774ad8bdefd5c87",
+    "bytes": 123212,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-7.woff2",
+    "sha256": "d1f87d46c80af676a0099def081fffea41f85bc62dc0957405f2ff9a33f18c4d",
+    "bytes": 210912,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-8.woff2",
+    "sha256": "2583da22e236b9b53d85d7a9dcb3f18cb4bca92277ea26cf53ada69c63ac8278",
+    "bytes": 414684,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/noto-color-emoji/NotoColorEmoji-9.woff2",
+    "sha256": "a50590a80ba6589388f4a51d463f853ef382dcbeb1e3b022dc6ed60147676ca2",
+    "bytes": 137732,
+    "adjacentNotice": true
+  },
+  {
+    "upstreamPath": "cli/static/fonts/source-serif-4/SourceSerif4-Variable-italic.woff2",
+    "sha256": "663e7ef3037a56dce81dfc33f68c1e6445995ffd8887991b3c0b68a7689c9da5",
+    "bytes": 51516,
+    "adjacentNotice": false
+  },
+  {
+    "upstreamPath": "cli/static/fonts/source-serif-4/SourceSerif4-Variable.woff2",
+    "sha256": "c1df4596be5029233ed2afbb8b2f6ea20784b3fb1aa5d6b5c6519ccd85eb3dfb",
+    "bytes": 50824,
+    "adjacentNotice": false
+  }
+]

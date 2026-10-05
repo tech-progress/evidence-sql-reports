@@ -1,0 +1,20 @@
+{
+  "Evidence Reports": {
+    "PORT": "3000",
+    "EVIDENCE_BASIC_USER": "${{secret(12)}}",
+    "EVIDENCE_BASIC_PASSWORD": "${{secret(48)}}",
+    "EVIDENCE_TELEMETRY_DISABLED": "true",
+    "REPORT_DB_HOST": "${{Warehouse.RAILWAY_PRIVATE_DOMAIN}}",
+    "REPORT_DB_NAME": "${{Warehouse.POSTGRES_DB}}",
+    "REPORT_DB_USER": "evidence_reader",
+    "REPORT_DB_PASSWORD": "${{Warehouse.REPORT_DB_PASSWORD}}",
+    "REPORT_DB_SSLMODE": "disable"
+  },
+  "Warehouse": {
+    "POSTGRES_DB": "reports",
+    "POSTGRES_USER": "postgres",
+    "POSTGRES_PASSWORD": "${{secret(48)}}",
+    "REPORT_DB_PASSWORD": "${{secret(48)}}",
+    "PGDATA": "/var/lib/postgresql/data/pgdata"
+  }
+}

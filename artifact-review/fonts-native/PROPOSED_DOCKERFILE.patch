@@ -1,0 +1,12 @@
+diff --git a/Dockerfile b/Dockerfile
+--- a/Dockerfile
++++ b/Dockerfile
+@@ -4,5 +4,8 @@
+ COPY scripts/fetch-upstream.mjs /tmp/fetch-upstream.mjs
+ RUN node /tmp/fetch-upstream.mjs && mkdir /src && tar -xzf /tmp/evidence.tar.gz --strip-components=1 -C /src && rm /tmp/evidence.tar.gz
+ WORKDIR /src
++# Apply only to the disposable verified upstream tree, before Vite/asset embedding.
++COPY artifact-review/fonts-native/exclude-source-serif.mjs /tmp/exclude-source-serif.mjs
++RUN node /tmp/exclude-source-serif.mjs --apply /src
+ RUN npm install --global pnpm@9.15.0 --ignore-scripts && pnpm install --frozen-lockfile --ignore-scripts && pnpm --filter @evidence/cli exec svelte-kit sync
+ RUN pnpm cli:build && test "$(cli/dist/evidence version)" = "0.10.1"

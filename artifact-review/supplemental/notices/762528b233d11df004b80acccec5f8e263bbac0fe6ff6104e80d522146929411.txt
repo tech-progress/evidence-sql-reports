@@ -1,0 +1,5 @@
+/**
+	C-like unsigned 64 bits integers in Javascript
+	Copyright (C) 2013, Pierre Curto
+	MIT license
+ */

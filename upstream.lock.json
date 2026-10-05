@@ -1,0 +1,15 @@
+{
+  "evidence": {
+    "version": "0.10.1",
+    "source": "https://github.com/evidence-dev/evidence",
+    "commit": "474ef4564f00e84991a055a3196fb32fd9d8d63a",
+    "archiveSha256": "02d5200d5fb427b6fa204d984f10c12c9a62e9cb2a119828605244e635a53e16",
+    "dependencyLock": "pnpm-lock.yaml from that exact source archive",
+    "pnpm": "9.15.0",
+    "bun": "1.3.11",
+    "officialImageSourceAttestation": "unresolved; official image is NOT used by this template"
+  },
+  "node": "24.20.0",
+  "postgres": "16.15",
+  "railway": "3.6.0"
+}

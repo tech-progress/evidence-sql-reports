@@ -1,0 +1,5 @@
+FROM postgres:16.15-bookworm@sha256:efedf3595f1d6f415c08568ba171029bf54052e754cc9f030e3f2412b21f3d67
+COPY warehouse/init.sh /docker-entrypoint-initdb.d/10-reporting.sh
+COPY warehouse/fixture.sql /opt/reporting/fixture.sql
+COPY LICENSE /usr/share/doc/evidence-template/LICENSE
+RUN chmod 755 /docker-entrypoint-initdb.d/10-reporting.sh

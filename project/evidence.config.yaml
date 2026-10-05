@@ -1,0 +1,4 @@
+project:
+  name: SQL freshness and reconciliation
+  evidence: "0.10.1"
+pages: ./pages

@@ -1,0 +1,47 @@
+name: rt-evidence-sql-reports-18309
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    environment:
+      POSTGRES_DB: reports
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Generate secrets with scripts/generate-env.mjs}
+      REPORT_DB_PASSWORD: ${REPORT_DB_PASSWORD:?Generate the reader password}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U postgres -d reports && test -f "$${PGDATA}/reporting-initialized"']
+      interval: 3s
+      timeout: 3s
+      retries: 40
+    networks: [warehouse]
+  reports:
+    build: .
+    environment:
+      PORT: "3000"
+      EVIDENCE_BASIC_USER: ${EVIDENCE_BASIC_USER:?Generate the report username}
+      EVIDENCE_BASIC_PASSWORD: ${EVIDENCE_BASIC_PASSWORD:?Generate the report password}
+      EVIDENCE_TELEMETRY_DISABLED: "true"
+      REPORT_DB_HOST: postgres
+      REPORT_DB_NAME: reports
+      REPORT_DB_USER: evidence_reader
+      REPORT_DB_PASSWORD: ${REPORT_DB_PASSWORD:?Generate the reader password}
+      REPORT_DB_SSLMODE: disable
+    ports: ["127.0.0.1:18309:3000"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, node, runtime/healthcheck.mjs]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+      start_period: 10s
+    networks: [warehouse]
+networks:
+  warehouse:
+volumes:
+  postgres-data:

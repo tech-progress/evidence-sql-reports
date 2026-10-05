@@ -1,0 +1,363 @@
+{
+  "method": "Read-only FreeType FT_Get_Sfnt_Name metadata extraction, no font rewriting. Raw name bytes represented as hex.",
+  "fonts": [
+    {
+      "path": "cli/static/fonts/source-serif-4/SourceSerif4-Variable-italic.woff2",
+      "sha256": "663e7ef3037a56dce81dfc33f68c1e6445995ffd8887991b3c0b68a7689c9da5",
+      "bytes": 51516,
+      "names": [
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 0,
+          "text": "© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.",
+          "rawHex": "00a9002000320030003100340020002d00200032003000320031002000410064006f00620065002000530079007300740065006d007300200049006e0063006f00720070006f00720061007400650064002000280068007400740070003a002f002f007700770077002e00610064006f00620065002e0063006f006d002f0029002c0020007700690074006800200052006500730065007200760065006400200046006f006e00740020004e0061006d0065002020180053006f00750072006300652019002e"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 1,
+          "text": "Source Serif 4",
+          "rawHex": "0053006f007500720063006500200053006500720069006600200034"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 2,
+          "text": "Italic",
+          "rawHex": "004900740061006c00690063"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 3,
+          "text": "4.004;ADBO;SourceSerif4-Italic",
+          "rawHex": "0034002e003000300034003b004100440042004f003b0053006f0075007200630065005300650072006900660034002d004900740061006c00690063"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 4,
+          "text": "Source Serif 4 Italic",
+          "rawHex": "0053006f0075007200630065002000530065007200690066002000340020004900740061006c00690063"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 5,
+          "text": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
+          "rawHex": "00560065007200730069006f006e00200034002e003000300034003b0068006f00740063006f006e007600200031002e0030002e003100310036003b006d0061006b0065006f0074006600650078006500200032002e0035002e00360035003600300031"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 6,
+          "text": "SourceSerif4-Italic",
+          "rawHex": "0053006f0075007200630065005300650072006900660034002d004900740061006c00690063"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 14,
+          "text": "http://scripts.sil.org/OFL",
+          "rawHex": "0068007400740070003a002f002f0073006300720069007000740073002e00730069006c002e006f00720067002f004f0046004c"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 278,
+          "text": "Weight",
+          "rawHex": "005700650069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 341,
+          "text": "Italic",
+          "rawHex": "004900740061006c00690063"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 355,
+          "text": "Optical size",
+          "rawHex": "004f00700074006900630061006c002000730069007a0065"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 361,
+          "text": "14pt",
+          "rawHex": "0031003400700074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 371,
+          "text": "Weight",
+          "rawHex": "005700650069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 372,
+          "text": "ExtraLight",
+          "rawHex": "00450078007400720061004c0069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 373,
+          "text": "Light",
+          "rawHex": "004c0069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 374,
+          "text": "Regular",
+          "rawHex": "0052006500670075006c00610072"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 375,
+          "text": "Medium",
+          "rawHex": "004d0065006400690075006d"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 376,
+          "text": "SemiBold",
+          "rawHex": "00530065006d00690042006f006c0064"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 377,
+          "text": "Bold",
+          "rawHex": "0042006f006c0064"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 378,
+          "text": "ExtraBold",
+          "rawHex": "004500780074007200610042006f006c0064"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 379,
+          "text": "Black",
+          "rawHex": "0042006c00610063006b"
+        }
+      ]
+    },
+    {
+      "path": "cli/static/fonts/source-serif-4/SourceSerif4-Variable.woff2",
+      "sha256": "c1df4596be5029233ed2afbb8b2f6ea20784b3fb1aa5d6b5c6519ccd85eb3dfb",
+      "bytes": 50824,
+      "names": [
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 0,
+          "text": "© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.",
+          "rawHex": "00a9002000320030003100340020002d00200032003000320031002000410064006f00620065002000530079007300740065006d007300200049006e0063006f00720070006f00720061007400650064002000280068007400740070003a002f002f007700770077002e00610064006f00620065002e0063006f006d002f0029002c0020007700690074006800200052006500730065007200760065006400200046006f006e00740020004e0061006d0065002020180053006f00750072006300652019002e"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 1,
+          "text": "Source Serif 4",
+          "rawHex": "0053006f007500720063006500200053006500720069006600200034"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 2,
+          "text": "Regular",
+          "rawHex": "0052006500670075006c00610072"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 3,
+          "text": "4.004;ADBO;SourceSerif4-Regular",
+          "rawHex": "0034002e003000300034003b004100440042004f003b0053006f0075007200630065005300650072006900660034002d0052006500670075006c00610072"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 4,
+          "text": "Source Serif 4 Regular",
+          "rawHex": "0053006f00750072006300650020005300650072006900660020003400200052006500670075006c00610072"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 5,
+          "text": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
+          "rawHex": "00560065007200730069006f006e00200034002e003000300034003b0068006f00740063006f006e007600200031002e0030002e003100310036003b006d0061006b0065006f0074006600650078006500200032002e0035002e00360035003600300031"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 6,
+          "text": "SourceSerif4-Regular",
+          "rawHex": "0053006f0075007200630065005300650072006900660034002d0052006500670075006c00610072"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 14,
+          "text": "http://scripts.sil.org/OFL",
+          "rawHex": "0068007400740070003a002f002f0073006300720069007000740073002e00730069006c002e006f00720067002f004f0046004c"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 278,
+          "text": "Weight",
+          "rawHex": "005700650069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 339,
+          "text": "ExtraLight",
+          "rawHex": "00450078007400720061004c0069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 340,
+          "text": "Light",
+          "rawHex": "004c0069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 341,
+          "text": "Regular",
+          "rawHex": "0052006500670075006c00610072"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 342,
+          "text": "Medium",
+          "rawHex": "004d0065006400690075006d"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 343,
+          "text": "SemiBold",
+          "rawHex": "00530065006d00690042006f006c0064"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 344,
+          "text": "Bold",
+          "rawHex": "0042006f006c0064"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 345,
+          "text": "ExtraBold",
+          "rawHex": "004500780074007200610042006f006c0064"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 346,
+          "text": "Black",
+          "rawHex": "0042006c00610063006b"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 355,
+          "text": "Optical size",
+          "rawHex": "004f00700074006900630061006c002000730069007a0065"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 361,
+          "text": "14pt",
+          "rawHex": "0031003400700074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 371,
+          "text": "Weight",
+          "rawHex": "005700650069006700680074"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 372,
+          "text": "Italic",
+          "rawHex": "004900740061006c00690063"
+        },
+        {
+          "platform": 3,
+          "encoding": 1,
+          "language": 1033,
+          "nameId": 373,
+          "text": "Roman",
+          "rawHex": "0052006f006d0061006e"
+        }
+      ]
+    }
+  ]
+}

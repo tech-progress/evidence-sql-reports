@@ -1,0 +1,2250 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-05",
+  "scope": "Finite supplemental evidence for exactly the 24 prior zero-notice npm inputs; existing 983 mappings and prior files remain unmodified. This is grant/notice evidence, not legal approval, security clearance, binary publication approval, or proof that all closure inputs are embedded.",
+  "sourceBuildPins": {
+    "evidenceCli": "0.10.1",
+    "evidenceCommit": "474ef4564f00e84991a055a3196fb32fd9d8d63a",
+    "node": "24.20.0",
+    "bun": "1.3.11",
+    "postgresql": "16.15",
+    "publication": "source only; no compiled image publication"
+  },
+  "summary": {
+    "exactInputs": 24,
+    "integrityVerifiedCachedArchives": 24,
+    "packageTextGapsRecovered": 2,
+    "partialGrantInputs": 3,
+    "declarationOnlyInputs": 17,
+    "attributionRetainedWithoutGrantBodyInputs": 2,
+    "inputsWithoutRecoveredGrantBody": 19,
+    "inputsStillRequiringGrantScopeOrTextResolutionIfIncluded": 22,
+    "retainedTextMappings": 17,
+    "distinctRetainedTexts": 14,
+    "networkRequestsIncludingInitialProbesAndRepeatedRawFollowup": 53
+  },
+  "interpretation": {
+    "textGapRecovered": "Grant body and applicable original attribution recovered for this named package; delivery and actual inclusion still require parent verification. Linked live grant and version-tag source evidence have their expressly stated identity limits.",
+    "declarationOnly": "Positive publisher licensing metadata exists, but original attribution/grant text was not recovered in this finite pass; absence of a filename/body is not a blanket illegal-use inference.",
+    "attributionOnly": "Original copyright attribution retained from the exact input, but its short license label supplies no full grant body. This is stronger notice evidence than bare SPDX, without closing the grant-body gap.",
+    "partial": "One or more actual grants recovered for specific portions; package-wide text/scope blocker remains.",
+    "sha256": "Hashes identify the exact bytes reviewed. Original member hash, extracted text hash, and retained notice hash are distinct when an excerpt or terminal-newline addition is recorded."
+  },
+  "parentIntegration": [
+    "Keep every retained original notice/grant and its index provenance accessible for included code. Add this supplemental directory without overwriting the previous manifest.",
+    "The LICENCE/README collector correction helps discovery but cannot reconstruct omitted upstream grants. Embedded source headers and filename suffixes such as uuidv7.js.LICENSE.txt require explicit handling; retain the recovered supplemental texts.",
+    "Provide an exact final compile dependency/asset map with package/version and file-level inclusion for server, client/static, native addons and runtime. Exclusion requires recorded absence, not a devDependency label or unused connector assumption.",
+    "These 24 dispositions do not reopen or resolve pre-existing font, Bun/native source/relinking, base-image, build/start acceptance or final artifact identity conditions; those remain parent-owned and outside this pass."
+  ],
+  "rows": [
+    {
+      "name": "@aws-sdk/credential-provider-http",
+      "version": "3.972.26",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/%40aws-sdk%2Fcredential-provider-http/3.972.26",
+        "registrySha256": "660a5b2f4df41565eda0dd464953462c3b3640cbe17f3f9251817d7d051024eb",
+        "tarballUrl": "https://registry.npmjs.org/@aws-sdk/credential-provider-http/-/credential-provider-http-3.972.26.tgz",
+        "tarballSha256": "d2063ca8212e89ce60e1f9a3b61530071348c7e11a34165e460edcb659c4bf26",
+        "lockIntegrity": "sha512-CY4ppZ+qHYqcXqBVi//sdHST1QK3KzOEiLtpLsc9W2k2vfZPKExGaQIsOwcyvjpjUEolotitmd3mUNY56IwDEA==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/aws/aws-sdk-js-v3.git",
+          "type": "git",
+          "directory": "packages-internal/credential-provider-http"
+        }
+      },
+      "declaration": {
+        "license": "Apache-2.0",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "07f318b3298f5e7d4ce9e98a879341bf4b030d2675d7a71d17aa35bf7024d55f",
+          "bytes": 2242
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/aws/aws-sdk-js-v3/tar.gz/%40aws-sdk%2Fcredential-provider-http%403.972.26",
+          "ref": "@aws-sdk/credential-provider-http@3.972.26",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "@aws-sdk/credential-provider-login",
+      "version": "3.972.28",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/%40aws-sdk%2Fcredential-provider-login/3.972.28",
+        "registrySha256": "1215fee1878bc7d5506deacde794d00c095c1fda741ee3d15b98e15b9e66384f",
+        "tarballUrl": "https://registry.npmjs.org/@aws-sdk/credential-provider-login/-/credential-provider-login-3.972.28.tgz",
+        "tarballSha256": "7c1be87cbd85e16a7e33ab74153f8e5450831f553735e75d2fc929dc6b474a63",
+        "lockIntegrity": "sha512-ZSTfO6jqUTCysbdBPtEX5OUR//3rbD0lN7jO3sQeS2Gjr/Y+DT6SbIJ0oT2cemNw3UzKu97sNONd1CwNMthuZQ==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/aws/aws-sdk-js-v3.git",
+          "type": "git",
+          "directory": "packages-internal/credential-provider-login"
+        }
+      },
+      "declaration": {
+        "license": "Apache-2.0",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "de5f8742db1a0b43e6217b02544821b370304236aedc5c659f5bba4d702a7ad3",
+          "bytes": 2130
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/aws/aws-sdk-js-v3/tar.gz/%40aws-sdk%2Fcredential-provider-login%403.972.28",
+          "ref": "@aws-sdk/credential-provider-login@3.972.28",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "@aws-sdk/nested-clients",
+      "version": "3.996.18",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/%40aws-sdk%2Fnested-clients/3.996.18",
+        "registrySha256": "2cef9552fa9e3896c79c75ac018dfd19d7e27aee0e1d5dbfdd772d17811fa23c",
+        "tarballUrl": "https://registry.npmjs.org/@aws-sdk/nested-clients/-/nested-clients-3.996.18.tgz",
+        "tarballSha256": "5c6da617dea79e6d6f6c7c768b451c5ea3c5388b14eb73f0947573557f8f406e",
+        "lockIntegrity": "sha512-c7ZSIXrESxHKx2Mcopgd8AlzZgoXMr20fkx5ViPWPOLBvmyhw9VwJx/Govg8Ef/IhEon5R9l53Z8fdYSEmp6VA==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/aws/aws-sdk-js-v3.git",
+          "type": "git",
+          "directory": "packages/nested-clients"
+        }
+      },
+      "declaration": {
+        "license": "Apache-2.0",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "2594575c809ed6b41a31f719d4169bd6da4172065b15638e201997be98d08738",
+          "bytes": 5730
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/aws/aws-sdk-js-v3/tar.gz/%40aws-sdk%2Fnested-clients%403.996.18",
+          "ref": "@aws-sdk/nested-clients@3.996.18",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "@databricks/databricks-sql-kernel-linux-x64-gnu",
+      "version": "0.2.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/%40databricks%2Fdatabricks-sql-kernel-linux-x64-gnu/0.2.0",
+        "registrySha256": "e8b159280a77fa3a1d1bb48b4e039065415c7fe9cce1cebe9b96b944ed2a156c",
+        "tarballUrl": "https://registry.npmjs.org/@databricks/databricks-sql-kernel-linux-x64-gnu/-/databricks-sql-kernel-linux-x64-gnu-0.2.0.tgz",
+        "tarballSha256": "60f14d2dc854b2c810d6c580e13679f2f9658f8cbcd1437e95127a89267ae68d",
+        "lockIntegrity": "sha512-wIEJX2mtoCc/KGOzzbxXwOR5aUB5dBSUG1Ypp+JLI28XsZB2eCLcP4jyAQ+Uklxn+SU1hICuok+30t/7wSvKUg==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": null
+      },
+      "declaration": {
+        "license": "Apache-2.0",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "862aabb4ebc59e84e8d153566be4a29d2abe507a3b2c5783958f21123391449b",
+          "bytes": 325
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [],
+      "remainingBlockers": [
+        "The integrity-verified 0.2.0 archive contains only package.json and index.linux-x64-gnu.node. Apache-2.0 appears only as metadata; there is no original grant, copyright, NOTICE, repository or gitHead. For copied/loaded native code, obtain publisher-matched original notices and the native component/dependency provenance, or verify absence. Do not invent a generic Apache attribution or infer the native dependency set from SPDX."
+      ]
+    },
+    {
+      "name": "@neoconfetti/svelte",
+      "version": "2.2.2",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/%40neoconfetti%2Fsvelte/2.2.2",
+        "registrySha256": "54bed5250c132e2c79966474e7e24525eb23b50528c0bd0c6514b996b3eee53d",
+        "tarballUrl": "https://registry.npmjs.org/@neoconfetti/svelte/-/svelte-2.2.2.tgz",
+        "tarballSha256": "cb76c4be7d8d340faa153bd1ee36157993b7fea032e25e09f7f22db496ce95c5",
+        "lockIntegrity": "sha512-E7xCFVEEm5Ctnj2udTJy1b9oaTvjz1zi1mYdEtE8rB5BVwq6kHisosDS+zdWN5PMfEMjtbsOV9Cl6tsNSAD1sA==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/puruvj/neoconfetti.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "dc787217b3af026d9a9c3cdcddc2d9723944cc5015a95c117bfb57670569e4bd",
+          "bytes": 1466
+        }
+      },
+      "outcome": "partial-grants-recovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [
+        {
+          "label": "Puru Vijay MIT grant recovered from same exact Svelte release's core directory",
+          "kind": "grant",
+          "scope": "@neoconfetti/core portion; sibling LICENSE is not silently promoted to a repository-wide Svelte wrapper grant",
+          "notice": "notices/a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5.txt",
+          "sha256": "a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5",
+          "bytes": 1067,
+          "source": {
+            "url": "https://codeload.github.com/puruvj/neoconfetti/tar.gz/%40neoconfetti%2Fsvelte%402.2.2",
+            "finalUrl": "https://codeload.github.com/puruvj/neoconfetti/tar.gz/%40neoconfetti%2Fsvelte%402.2.2",
+            "ref": "@neoconfetti/svelte@2.2.2",
+            "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+            "sha256": "d22610bf4f72c9e5fb69a57d5caea7c0bc343cc24af0b2db2aa542eb6a3731c1",
+            "bytes": 95979,
+            "memberPath": "packages/core/LICENSE",
+            "memberSha256": "a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5",
+            "memberBytes": 1067
+          },
+          "originalTextSha256": "a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5",
+          "transformation": "none"
+        }
+      ],
+      "retainedTexts": [
+        {
+          "label": "Puru Vijay MIT grant recovered from same exact Svelte release's core directory",
+          "kind": "grant",
+          "scope": "@neoconfetti/core portion; sibling LICENSE is not silently promoted to a repository-wide Svelte wrapper grant",
+          "notice": "notices/a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5.txt",
+          "sha256": "a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5",
+          "bytes": 1067,
+          "source": {
+            "url": "https://codeload.github.com/puruvj/neoconfetti/tar.gz/%40neoconfetti%2Fsvelte%402.2.2",
+            "finalUrl": "https://codeload.github.com/puruvj/neoconfetti/tar.gz/%40neoconfetti%2Fsvelte%402.2.2",
+            "ref": "@neoconfetti/svelte@2.2.2",
+            "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+            "sha256": "d22610bf4f72c9e5fb69a57d5caea7c0bc343cc24af0b2db2aa542eb6a3731c1",
+            "bytes": 95979,
+            "memberPath": "packages/core/LICENSE",
+            "memberSha256": "a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5",
+            "memberBytes": 1067
+          },
+          "originalTextSha256": "a625339a9ade46c848e62d725d1ab580f9526469d0d08f4682e58dc48bb6d3f5",
+          "transformation": "none"
+        },
+        {
+          "label": "Exact Svelte package MIT label and Puru Vijay attribution",
+          "kind": "original-attribution",
+          "scope": "Svelte package original attribution; short license label is not a full grant",
+          "notice": "notices/e85fd3e3ff7582950d6a4fa79d99eeb0cfc429defa4ad52b3fc67c05dd410a5b.txt",
+          "sha256": "e85fd3e3ff7582950d6a4fa79d99eeb0cfc429defa4ad52b3fc67c05dd410a5b",
+          "bytes": 71,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/@neoconfetti/svelte/-/svelte-2.2.2.tgz",
+            "tarballSha256": "cb76c4be7d8d340faa153bd1ee36157993b7fea032e25e09f7f22db496ce95c5",
+            "memberPath": "package/README.md",
+            "memberSha256": "ecf9b25a40ccbdbad8390887bb00a0612b6f710aed600056aeba4a4a2721357e"
+          },
+          "originalTextSha256": "e85fd3e3ff7582950d6a4fa79d99eeb0cfc429defa4ad52b3fc67c05dd410a5b",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim suffix",
+            "startCharacter": 4753,
+            "endCharacter": 4823
+          }
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/puruvj/neoconfetti/tar.gz/%40neoconfetti%2Fsvelte%402.2.2",
+          "finalUrl": "https://codeload.github.com/puruvj/neoconfetti/tar.gz/%40neoconfetti%2Fsvelte%402.2.2",
+          "ref": "@neoconfetti/svelte@2.2.2",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 200,
+          "sha256": "d22610bf4f72c9e5fb69a57d5caea7c0bc343cc24af0b2db2aa542eb6a3731c1",
+          "bytes": 95979,
+          "matchingNpmMembers": [],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "neoconfetti",
+              "version": "1.0.0",
+              "sha256": "ed2917a159636aa2af2c1c22146a4be60419caf1b2791d64df62ee73eb0657a4"
+            },
+            {
+              "path": "packages/svelte/package.json",
+              "name": "@neoconfetti/svelte",
+              "version": "2.2.2",
+              "sha256": "694fd2c5a16febf0acf2582d72503323b040fee4a80b120ba0ec62420bb0e057"
+            }
+          ],
+          "inspectedSourceFileCount": 105
+        },
+        {
+          "url": "https://codeload.github.com/puruvj/neoconfetti/tar.gz/v2.2.2",
+          "ref": "v2.2.2",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/puruvj/neoconfetti/%40neoconfetti%2Fsvelte%402.2.2/packages/svelte/src/index.ts",
+          "finalUrl": "https://raw.githubusercontent.com/puruvj/neoconfetti/%40neoconfetti%2Fsvelte%402.2.2/packages/svelte/src/index.ts",
+          "ref": "@neoconfetti/svelte@2.2.2",
+          "refBasis": "exact-version release tag already inspected",
+          "status": 200,
+          "sha256": "dcdbf1c981d131e99999ee5d4865337bee293b638a9ded5f52a315dc7a016a8e",
+          "bytes": 127,
+          "path": "packages/svelte/src/index.ts"
+        }
+      ],
+      "remainingBlockers": [
+        "Release tag contains @neoconfetti/svelte 2.2.2 and a core MIT grant, but no Svelte wrapper grant body. Resolve applicability to any included wrapper code, or prove the final output contains only the licensed core portion. Do not assume the sibling core LICENSE covers all packages."
+      ],
+      "identityLimit": "Published dist/index.js begins '// ../core/dist/index.js' and ends with confetti export; release Svelte source re-exports core. This supports core provenance, not bit-for-bit rebuilt-output identity or full wrapper scope."
+    },
+    {
+      "name": "@nodable/entities",
+      "version": "2.1.1",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/%40nodable%2Fentities/2.1.1",
+        "registrySha256": "d333a06907d7864b7e26aa197ec5576a2cf63ed12166d88ef4496e170f2cd5ff",
+        "tarballUrl": "https://registry.npmjs.org/@nodable/entities/-/entities-2.1.1.tgz",
+        "tarballSha256": "c729f731b15affcbc2e8e722593f7a749e195c760e6da10a5123ecec3c898e35",
+        "lockIntegrity": "sha512-Pig3HxDIoMgjdEH8OCf/dkcTmLFjJRjWuq8jSnklu284/TKOPibSRERmOykiwmyXTtv61mP+44f3GMx0tLAyjg==",
+        "integrityVerified": true,
+        "gitHead": "8aa6d25b44b96a547e47c00873baaf5817ae2b9f",
+        "repository": {
+          "url": "git+https://github.com/nodable/val-parsers.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "3975d688f6b606b72aba3ef2f5b4498bbef6890b270d4f25b6a206bbcf7b3b53",
+          "bytes": 1225
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/nodable/val-parsers/tar.gz/8aa6d25b44b96a547e47c00873baaf5817ae2b9f",
+          "ref": "8aa6d25b44b96a547e47c00873baaf5817ae2b9f",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "MIT appears only as publisher/package/README metadata. The npm gitHead 8aa6d25b44b96a547e47c00873baaf5817ae2b9f source archive returned 404. Recover an original grant/notice tied to entities 2.1.1 or verify absence; do not borrow a same-author sibling project's grant."
+      ]
+    },
+    {
+      "name": "@posthog/core",
+      "version": "1.14.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/%40posthog%2Fcore/1.14.0",
+        "registrySha256": "36b88351fc80be79c0fc3e52462965498f9bc685a9a2a7bdf6fe16230e983077",
+        "tarballUrl": "https://registry.npmjs.org/@posthog/core/-/core-1.14.0.tgz",
+        "tarballSha256": "64a8bcae03670172299ed23c01db6722ee8b97a285807fe8a1ec8f0084d6c42a",
+        "lockIntegrity": "sha512-havjGYHwL8Gy6LXIR911h+M/sYlJLQbepxP/cc1M7Cp3v8F92bzpqkbuvUIUyb7/izkxfGwc9wMqKAo0QxMTrg==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/PostHog/posthog-js.git",
+          "type": "git",
+          "directory": "packages/core"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "cb763a28717bce77bc4aa22c0cc485691246e8541ca01153a13dfb5b2816768a",
+          "bytes": 1778
+        }
+      },
+      "outcome": "partial-grants-recovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [
+        {
+          "label": "Exact PostHog core release root LICENSE with Apache grant and conditional third-party MIT sections",
+          "kind": "grant",
+          "scope": "Release-root grant and explicitly scoped Sentry/Meta/Expo sections; package-level MIT metadata conflict remains",
+          "notice": "notices/cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a.txt",
+          "sha256": "cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a",
+          "bytes": 15965,
+          "source": {
+            "url": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/LICENSE",
+            "finalUrl": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/LICENSE",
+            "ref": "@posthog/core@1.14.0",
+            "refBasis": "bounded exact-version release tag; compare shipped source bytes",
+            "sha256": "cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a",
+            "bytes": 15965
+          },
+          "originalTextSha256": "cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a",
+          "transformation": "none"
+        },
+        {
+          "label": "Original Sentry-derived attribution and full TraceKit MIT grant",
+          "kind": "grant",
+          "scope": "TraceKit/Sentry-derived parser portion only; Sentry-specific original grant is also in release-root LICENSE",
+          "notice": "notices/1d6d30618818d190ea95e63535000bb4d29b26066a6354394a1c9fff07b4b0e2.txt",
+          "sha256": "1d6d30618818d190ea95e63535000bb4d29b26066a6354394a1c9fff07b4b0e2",
+          "bytes": 1563,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/@posthog/core/-/core-1.14.0.tgz",
+            "tarballSha256": "64a8bcae03670172299ed23c01db6722ee8b97a285807fe8a1ec8f0084d6c42a",
+            "memberPath": "package/src/error-tracking/parsers/index.ts",
+            "memberSha256": "f999fb38fd27b47e1ab21052edc087ac5ca115d0623c51b22cb0fcc97e2823c5"
+          },
+          "originalTextSha256": "1d6d30618818d190ea95e63535000bb4d29b26066a6354394a1c9fff07b4b0e2",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 1560
+          }
+        },
+        {
+          "label": "Vendored uuidv7 Apache-2.0 grant at source-linked immutable commit",
+          "kind": "grant",
+          "scope": "uuidv7 portion only; retain LiosK original copyright separately",
+          "notice": "notices/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "source": {
+            "url": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/LICENSE",
+            "finalUrl": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/LICENSE",
+            "ref": "f30b7a7faff73afbce0b27a46c638310f96912ba",
+            "refBasis": "explicit immutable source link in exact npm package/src/vendor/uuidv7.ts",
+            "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "bytes": 11357
+          },
+          "originalTextSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "transformation": "none"
+        }
+      ],
+      "retainedTexts": [
+        {
+          "label": "Exact PostHog core release root LICENSE with Apache grant and conditional third-party MIT sections",
+          "kind": "grant",
+          "scope": "Release-root grant and explicitly scoped Sentry/Meta/Expo sections; package-level MIT metadata conflict remains",
+          "notice": "notices/cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a.txt",
+          "sha256": "cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a",
+          "bytes": 15965,
+          "source": {
+            "url": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/LICENSE",
+            "finalUrl": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/LICENSE",
+            "ref": "@posthog/core@1.14.0",
+            "refBasis": "bounded exact-version release tag; compare shipped source bytes",
+            "sha256": "cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a",
+            "bytes": 15965
+          },
+          "originalTextSha256": "cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a",
+          "transformation": "none"
+        },
+        {
+          "label": "Original Sentry-derived attribution and full TraceKit MIT grant",
+          "kind": "grant",
+          "scope": "TraceKit/Sentry-derived parser portion only; Sentry-specific original grant is also in release-root LICENSE",
+          "notice": "notices/1d6d30618818d190ea95e63535000bb4d29b26066a6354394a1c9fff07b4b0e2.txt",
+          "sha256": "1d6d30618818d190ea95e63535000bb4d29b26066a6354394a1c9fff07b4b0e2",
+          "bytes": 1563,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/@posthog/core/-/core-1.14.0.tgz",
+            "tarballSha256": "64a8bcae03670172299ed23c01db6722ee8b97a285807fe8a1ec8f0084d6c42a",
+            "memberPath": "package/src/error-tracking/parsers/index.ts",
+            "memberSha256": "f999fb38fd27b47e1ab21052edc087ac5ca115d0623c51b22cb0fcc97e2823c5"
+          },
+          "originalTextSha256": "1d6d30618818d190ea95e63535000bb4d29b26066a6354394a1c9fff07b4b0e2",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 1560
+          }
+        },
+        {
+          "label": "Vendored uuidv7 Apache-2.0 grant at source-linked immutable commit",
+          "kind": "grant",
+          "scope": "uuidv7 portion only; retain LiosK original copyright separately",
+          "notice": "notices/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "source": {
+            "url": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/LICENSE",
+            "finalUrl": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/LICENSE",
+            "ref": "f30b7a7faff73afbce0b27a46c638310f96912ba",
+            "refBasis": "explicit immutable source link in exact npm package/src/vendor/uuidv7.ts",
+            "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "bytes": 11357
+          },
+          "originalTextSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "transformation": "none"
+        },
+        {
+          "label": "Original uuidv7 emitted license/copyright header",
+          "kind": "original-attribution",
+          "scope": "Vendored UUID attribution: Apache SPDX label and LiosK copyright; header alone lacks full Apache grant",
+          "notice": "notices/20047c82a83e1cbef52094dd0e62ddd4226b7cff34c93dff0ffd0f69b0febb6c.txt",
+          "sha256": "20047c82a83e1cbef52094dd0e62ddd4226b7cff34c93dff0ffd0f69b0febb6c",
+          "bytes": 162,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/@posthog/core/-/core-1.14.0.tgz",
+            "tarballSha256": "64a8bcae03670172299ed23c01db6722ee8b97a285807fe8a1ec8f0084d6c42a",
+            "memberPath": "package/dist/vendor/uuidv7.js.LICENSE.txt",
+            "memberSha256": "fbc41edec80d3ea1bb5d5a167e94582bf825d5ae73851a86a6fcc6ebece39863"
+          },
+          "originalTextSha256": "fbc41edec80d3ea1bb5d5a167e94582bf825d5ae73851a86a6fcc6ebece39863",
+          "transformation": "terminal newline appended; all original characters retained"
+        },
+        {
+          "label": "Original uuidv7 emitted license/copyright header",
+          "kind": "original-attribution",
+          "scope": "Vendored UUID attribution: Apache SPDX label and LiosK copyright; header alone lacks full Apache grant",
+          "notice": "notices/20047c82a83e1cbef52094dd0e62ddd4226b7cff34c93dff0ffd0f69b0febb6c.txt",
+          "sha256": "20047c82a83e1cbef52094dd0e62ddd4226b7cff34c93dff0ffd0f69b0febb6c",
+          "bytes": 162,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/@posthog/core/-/core-1.14.0.tgz",
+            "tarballSha256": "64a8bcae03670172299ed23c01db6722ee8b97a285807fe8a1ec8f0084d6c42a",
+            "memberPath": "package/dist/vendor/uuidv7.mjs.LICENSE.txt",
+            "memberSha256": "fbc41edec80d3ea1bb5d5a167e94582bf825d5ae73851a86a6fcc6ebece39863"
+          },
+          "originalTextSha256": "fbc41edec80d3ea1bb5d5a167e94582bf825d5ae73851a86a6fcc6ebece39863",
+          "transformation": "terminal newline appended; all original characters retained"
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/PostHog/posthog-js/tar.gz/%40posthog%2Fcore%401.14.0",
+          "ref": "@posthog/core@1.14.0",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "error": "AssertionError: response exceeded finite size limit"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/LICENSE",
+          "finalUrl": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/LICENSE",
+          "ref": "@posthog/core@1.14.0",
+          "refBasis": "bounded exact-version release tag; compare shipped source bytes",
+          "status": 200,
+          "sha256": "cca1cfff1da6fb80722d4ebc5a1d71827d93a35ef5b21af1070af7a2bb17d59a",
+          "bytes": 15965,
+          "path": "LICENSE"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/LICENSE.md",
+          "ref": "@posthog/core@1.14.0",
+          "refBasis": "bounded exact-version release tag; compare shipped source bytes",
+          "status": 404,
+          "error": "HTTP 404",
+          "path": "LICENSE.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/packages/core/LICENSE",
+          "ref": "@posthog/core@1.14.0",
+          "refBasis": "bounded exact-version release tag; compare shipped source bytes",
+          "status": 404,
+          "error": "HTTP 404",
+          "path": "packages/core/LICENSE"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/packages/core/package.json",
+          "finalUrl": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/packages/core/package.json",
+          "ref": "@posthog/core@1.14.0",
+          "refBasis": "bounded exact-version release tag; compare shipped source bytes",
+          "status": 200,
+          "sha256": "43b93aaeb5c94f498f5ad539456244f4c7bf388e0c7286ae5bfd4b564b9058d7",
+          "bytes": 1789,
+          "path": "packages/core/package.json"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/packages/core/src/error-tracking/parsers/index.ts",
+          "finalUrl": "https://raw.githubusercontent.com/PostHog/posthog-js/%40posthog%2Fcore%401.14.0/packages/core/src/error-tracking/parsers/index.ts",
+          "ref": "@posthog/core@1.14.0",
+          "refBasis": "bounded exact-version release tag; compare shipped source bytes",
+          "status": 200,
+          "sha256": "f999fb38fd27b47e1ab21052edc087ac5ca115d0623c51b22cb0fcc97e2823c5",
+          "bytes": 4203,
+          "path": "packages/core/src/error-tracking/parsers/index.ts"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/LICENSE",
+          "finalUrl": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/LICENSE",
+          "ref": "f30b7a7faff73afbce0b27a46c638310f96912ba",
+          "refBasis": "explicit immutable source link in exact npm package/src/vendor/uuidv7.ts",
+          "status": 200,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "path": "LICENSE",
+          "component": "vendored uuidv7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/NOTICE",
+          "ref": "f30b7a7faff73afbce0b27a46c638310f96912ba",
+          "refBasis": "explicit immutable source link in exact npm package/src/vendor/uuidv7.ts",
+          "status": 404,
+          "error": "HTTP 404",
+          "path": "NOTICE",
+          "component": "vendored uuidv7"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/src/index.ts",
+          "finalUrl": "https://raw.githubusercontent.com/LiosK/uuidv7/f30b7a7faff73afbce0b27a46c638310f96912ba/src/index.ts",
+          "ref": "f30b7a7faff73afbce0b27a46c638310f96912ba",
+          "refBasis": "explicit immutable source link in exact npm package/src/vendor/uuidv7.ts",
+          "status": 200,
+          "sha256": "1147724fb0e5a0056820920eff831802d008abb8121087afe4c0631502ac177c",
+          "bytes": 14852,
+          "path": "src/index.ts",
+          "component": "vendored uuidv7"
+        }
+      ],
+      "remainingBlockers": [
+        "Exact @posthog/core 1.14.0 metadata declares MIT, while the same release's root LICENSE applies Apache-2.0 to primary work and specific MIT terms to named third-party portions. No packages/core/LICENSE was recovered. Resolve the primary core grant's applicable scope instead of claiming a recovered package-wide MIT grant.",
+        "Retain the release-root Sentry notice and TraceKit grant for included parser-derived code, plus the uuidv7 original LiosK header and immutable-source Apache license for included UUID code. Preserve modification notices where applicable. Exact copied parser bytes match the release tag; modified vendored UUID bytes are not identical to upstream source."
+      ],
+      "identityLimit": "Release package.json confirms @posthog/core 1.14.0. Parser source is byte-identical to the npm member. Vendored UUID source explicitly links commit f30b7a7faff73afbce0b27a46c638310f96912ba, but source hashes differ; neither source comparison establishes final compile inclusion."
+    },
+    {
+      "name": "asn1.js-rfc2560",
+      "version": "5.0.1",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/asn1.js-rfc2560/5.0.1",
+        "registrySha256": "341c2e89e4723671ab5fb83a57b79b45377d09af2fb008acf7ecac68a269e606",
+        "tarballUrl": "https://registry.npmjs.org/asn1.js-rfc2560/-/asn1.js-rfc2560-5.0.1.tgz",
+        "tarballSha256": "1dd82216c85e1d84515887aa37e586ffd335724e7830efb899a2b6b43fa63f14",
+        "lockIntegrity": "sha512-1PrVg6kuBziDN3PGFmRk3QrjpKvP9h/Hv5yMrFZvC1kpzP6dQRzf5BpKstANqHBkaOUmTpakJWhicTATOA/SbA==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+ssh://git@github.com/indutny/asn1.js.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "979f2ae9663058a7920dc628220e47826d2217a14ccdf7f45677859a1cf84adb",
+          "bytes": 675
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/indutny/asn1.js/tar.gz/asn1.js-rfc2560%405.0.1",
+          "ref": "asn1.js-rfc2560@5.0.1",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "asn1.js-rfc5280",
+      "version": "3.0.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/asn1.js-rfc5280/3.0.0",
+        "registrySha256": "4a8389a9d50f378a786abe34f85e34883a93ca62d9b1715057f3a6d9adad0064",
+        "tarballUrl": "https://registry.npmjs.org/asn1.js-rfc5280/-/asn1.js-rfc5280-3.0.0.tgz",
+        "tarballSha256": "9d13c4d4f40be6be330ac6351fc7d2a19efced41c7cf8be546f3c7bbae228a3b",
+        "lockIntegrity": "sha512-Y2LZPOWeZ6qehv698ZgOGGCZXBQShObWnGthTrIFlIQjuV1gg2B8QOhWFRExq/MR1VnPpIIe7P9vX2vElxv+Pg==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+ssh://git@github.com/indutny/asn1.js.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "c70c4f0b7792b4d89d4160f35f4d6a64fc31cd781dd5ae32b83c0ff2616664c7",
+          "bytes": 623
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/indutny/asn1.js/tar.gz/asn1.js-rfc5280%403.0.0",
+          "ref": "asn1.js-rfc5280@3.0.0",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "cuint",
+      "version": "0.2.2",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/cuint/0.2.2",
+        "registrySha256": "a8f0ccf05e9094e83a6787ea0711b450e384c5aa265d3b43f7e206f36fa57c1b",
+        "tarballUrl": "https://registry.npmjs.org/cuint/-/cuint-0.2.2.tgz",
+        "tarballSha256": "1b90b7f3f499378a52712e1894578ceb7d84ef1661a947ca9d7bde6c8b22a82e",
+        "lockIntegrity": "sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==",
+        "integrityVerified": true,
+        "gitHead": "c5f32fa2d79c7c3e5425b8abd8cc63a737f88f36",
+        "repository": {
+          "url": "git+https://github.com/pierrec/js-cuint.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "bc1dc313038b47756c820a3441dae03810201c782cdc3d9d6ba7bc8d10d55ea3",
+          "bytes": 617
+        }
+      },
+      "outcome": "original-attribution-retained-grant-body-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [
+        {
+          "label": "Original Pierre Curto copyright and short MIT header",
+          "kind": "original-attribution",
+          "scope": "Exact 0.2.2 original attribution; MIT label does not supply the missing grant/conditions",
+          "notice": "notices/76bc6f2d9797ccf6398d4a3305c7922d001a83c8b12171f13175df93791f7083.txt",
+          "sha256": "76bc6f2d9797ccf6398d4a3305c7922d001a83c8b12171f13175df93791f7083",
+          "bytes": 103,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/cuint/-/cuint-0.2.2.tgz",
+            "tarballSha256": "1b90b7f3f499378a52712e1894578ceb7d84ef1661a947ca9d7bde6c8b22a82e",
+            "memberPath": "package/build/uint32.js",
+            "memberSha256": "01b3b9bac93bb7e118006187eb1fcbacaf1adb86fbc10f054807bada7e536131"
+          },
+          "originalTextSha256": "76bc6f2d9797ccf6398d4a3305c7922d001a83c8b12171f13175df93791f7083",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 103
+          }
+        },
+        {
+          "label": "Original Pierre Curto copyright and short MIT header",
+          "kind": "original-attribution",
+          "scope": "Exact 0.2.2 original attribution; MIT label does not supply the missing grant/conditions",
+          "notice": "notices/762528b233d11df004b80acccec5f8e263bbac0fe6ff6104e80d522146929411.txt",
+          "sha256": "762528b233d11df004b80acccec5f8e263bbac0fe6ff6104e80d522146929411",
+          "bytes": 103,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/cuint/-/cuint-0.2.2.tgz",
+            "tarballSha256": "1b90b7f3f499378a52712e1894578ceb7d84ef1661a947ca9d7bde6c8b22a82e",
+            "memberPath": "package/build/uint64.js",
+            "memberSha256": "26f08117126b5a47ce8fe4d136e1a663329d578b02769552c44d327940e915ea"
+          },
+          "originalTextSha256": "762528b233d11df004b80acccec5f8e263bbac0fe6ff6104e80d522146929411",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 103
+          }
+        },
+        {
+          "label": "Original Pierre Curto copyright and short MIT header",
+          "kind": "original-attribution",
+          "scope": "Exact 0.2.2 original attribution; MIT label does not supply the missing grant/conditions",
+          "notice": "notices/76bc6f2d9797ccf6398d4a3305c7922d001a83c8b12171f13175df93791f7083.txt",
+          "sha256": "76bc6f2d9797ccf6398d4a3305c7922d001a83c8b12171f13175df93791f7083",
+          "bytes": 103,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/cuint/-/cuint-0.2.2.tgz",
+            "tarballSha256": "1b90b7f3f499378a52712e1894578ceb7d84ef1661a947ca9d7bde6c8b22a82e",
+            "memberPath": "package/lib/uint32.js",
+            "memberSha256": "01b3b9bac93bb7e118006187eb1fcbacaf1adb86fbc10f054807bada7e536131"
+          },
+          "originalTextSha256": "76bc6f2d9797ccf6398d4a3305c7922d001a83c8b12171f13175df93791f7083",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 103
+          }
+        },
+        {
+          "label": "Original Pierre Curto copyright and short MIT header",
+          "kind": "original-attribution",
+          "scope": "Exact 0.2.2 original attribution; MIT label does not supply the missing grant/conditions",
+          "notice": "notices/762528b233d11df004b80acccec5f8e263bbac0fe6ff6104e80d522146929411.txt",
+          "sha256": "762528b233d11df004b80acccec5f8e263bbac0fe6ff6104e80d522146929411",
+          "bytes": 103,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/cuint/-/cuint-0.2.2.tgz",
+            "tarballSha256": "1b90b7f3f499378a52712e1894578ceb7d84ef1661a947ca9d7bde6c8b22a82e",
+            "memberPath": "package/lib/uint64.js",
+            "memberSha256": "26f08117126b5a47ce8fe4d136e1a663329d578b02769552c44d327940e915ea"
+          },
+          "originalTextSha256": "762528b233d11df004b80acccec5f8e263bbac0fe6ff6104e80d522146929411",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 103
+          }
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/pierrec/js-cuint/tar.gz/c5f32fa2d79c7c3e5425b8abd8cc63a737f88f36",
+          "finalUrl": "https://codeload.github.com/pierrec/js-cuint/tar.gz/c5f32fa2d79c7c3e5425b8abd8cc63a737f88f36",
+          "ref": "c5f32fa2d79c7c3e5425b8abd8cc63a737f88f36",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "e2563805bf904499440ad877978e2fea74171b62ee2e4970ba6065a760d4a3fb",
+          "bytes": 19525,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "README.md",
+              "npmPath": "package/README.md",
+              "sha256": "9bba52999f0ff176cd3ba92645ac097fa0009275939794b27524c4e71955626b"
+            },
+            {
+              "sourcePath": "build.js",
+              "npmPath": "package/build.js",
+              "sha256": "5c3db3d0549e75d55b48cea45dfacf246ceded7ff8185e6206274a852b4b3374"
+            },
+            {
+              "sourcePath": "build/uint32.js",
+              "npmPath": "package/build/uint32.js",
+              "sha256": "01b3b9bac93bb7e118006187eb1fcbacaf1adb86fbc10f054807bada7e536131"
+            },
+            {
+              "sourcePath": "build/uint32.min.js",
+              "npmPath": "package/build/uint32.min.js",
+              "sha256": "76853c65068f15b2379d9804e212646fc7824640522b22b874aad5e52449b744"
+            },
+            {
+              "sourcePath": "build/uint64.js",
+              "npmPath": "package/build/uint64.js",
+              "sha256": "26f08117126b5a47ce8fe4d136e1a663329d578b02769552c44d327940e915ea"
+            },
+            {
+              "sourcePath": "build/uint64.min.js",
+              "npmPath": "package/build/uint64.min.js",
+              "sha256": "c8a824410356c4e3f92ae5fc1e9cac78773f895f0727bcad5351462a658c19fe"
+            },
+            {
+              "sourcePath": "examples/adding.js",
+              "npmPath": "package/examples/adding.js",
+              "sha256": "8b795e47332ed3ae97ddad2f62cbfae04188aebf0c98bcb0e0f65700f0a3502d"
+            },
+            {
+              "sourcePath": "examples/dividing.js",
+              "npmPath": "package/examples/dividing.js",
+              "sha256": "ceb956681bf4d9e84c01232d70bf3146dbb346379befe82356290647ec1be341"
+            },
+            {
+              "sourcePath": "examples/uint32.html",
+              "npmPath": "package/examples/uint32.html",
+              "sha256": "08d6f1b85a2982df721959d6cde9c16c777474eb145b18789a354441bbeaa0b4"
+            },
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "19c0480b4e30ba3fdea1ebbe6f6b830fc97c7fc59a818f367ccbde7475de3915"
+            },
+            {
+              "sourcePath": "lib/uint32.js",
+              "npmPath": "package/lib/uint32.js",
+              "sha256": "01b3b9bac93bb7e118006187eb1fcbacaf1adb86fbc10f054807bada7e536131"
+            },
+            {
+              "sourcePath": "lib/uint64.js",
+              "npmPath": "package/lib/uint64.js",
+              "sha256": "26f08117126b5a47ce8fe4d136e1a663329d578b02769552c44d327940e915ea"
+            },
+            {
+              "sourcePath": "test/UINT32-test.js",
+              "npmPath": "package/test/UINT32-test.js",
+              "sha256": "6a73c4dd60bb9e9b69e39be27b0798df5fdc8b848d3a52e231ceb0fbbb393f4f"
+            },
+            {
+              "sourcePath": "test/UINT32_add-test.js",
+              "npmPath": "package/test/UINT32_add-test.js",
+              "sha256": "2287d76db42a02609df15a580b2ed26c50976db0959197ff3a48adffdd706827"
+            },
+            {
+              "sourcePath": "test/UINT32_and-test.js",
+              "npmPath": "package/test/UINT32_and-test.js",
+              "sha256": "555fd9169f9084c81b99db564572cc58c607de4d95fbe0d82c35f9e0efbff0b0"
+            },
+            {
+              "sourcePath": "test/UINT32_div-test.js",
+              "npmPath": "package/test/UINT32_div-test.js",
+              "sha256": "707ff26a00942e33f6632eae09e355c11e70cf9e35a852a04a2c9e5e8bf87fec"
+            },
+            {
+              "sourcePath": "test/UINT32_equals-test.js",
+              "npmPath": "package/test/UINT32_equals-test.js",
+              "sha256": "94c986a39910fbd3189a3fecb93df98e63ac41c0f44f3b0d7b36566451126e14"
+            },
+            {
+              "sourcePath": "test/UINT32_greaterThan-test.js",
+              "npmPath": "package/test/UINT32_greaterThan-test.js",
+              "sha256": "07ace3ed59130c5e1cae594cc6e5b6ee9fec15b46362fd658c376ca62643f951"
+            },
+            {
+              "sourcePath": "test/UINT32_lessThan-test.js",
+              "npmPath": "package/test/UINT32_lessThan-test.js",
+              "sha256": "eb9f48f03a0b1e013e637d5ae538ae0482688a6dabddec0bd7b4a0593441b3ad"
+            },
+            {
+              "sourcePath": "test/UINT32_multiply-test.js",
+              "npmPath": "package/test/UINT32_multiply-test.js",
+              "sha256": "55da0fe384b4b767770a77e6978fdeb5e498abc3664c76798aee04d4154a14d4"
+            },
+            {
+              "sourcePath": "test/UINT32_negate-test.js",
+              "npmPath": "package/test/UINT32_negate-test.js",
+              "sha256": "083a12f38bbb6c88d16fdf0d234ae745d49be176602a3f77ab03bc5ea7c108b9"
+            },
+            {
+              "sourcePath": "test/UINT32_not-test.js",
+              "npmPath": "package/test/UINT32_not-test.js",
+              "sha256": "df44cb0a3770aa7e3d752934a64f6374c5229995f5d93e98d450f8bbd22ab06b"
+            },
+            {
+              "sourcePath": "test/UINT32_or-test.js",
+              "npmPath": "package/test/UINT32_or-test.js",
+              "sha256": "b271bc0065f13bd610b2dda9114ee9e64cb91b0e0793768bc8febf1429e7746c"
+            },
+            {
+              "sourcePath": "test/UINT32_rotateLeft-test.js",
+              "npmPath": "package/test/UINT32_rotateLeft-test.js",
+              "sha256": "1bfbb98e52fee9e838228ac4da1473daf7229efa4bf2639da95203a133933fbc"
+            },
+            {
+              "sourcePath": "test/UINT32_rotateRight-test.js",
+              "npmPath": "package/test/UINT32_rotateRight-test.js",
+              "sha256": "91fe26cf2320ea9f3cfe5914d171df39094e5cbd3483bb0cf1255d8fce3dc3a9"
+            },
+            {
+              "sourcePath": "test/UINT32_shiftLeft-test.js",
+              "npmPath": "package/test/UINT32_shiftLeft-test.js",
+              "sha256": "5f2bb6db0d1ca6ba974b7636b701f5dd1c85c5a461152f3f4c0cfc0b96bdd917"
+            },
+            {
+              "sourcePath": "test/UINT32_shiftRight-test.js",
+              "npmPath": "package/test/UINT32_shiftRight-test.js",
+              "sha256": "f4cc59c7712ee285c50c8f689ac747f2d41f6361cc1d7553f4dda3b942615d5a"
+            },
+            {
+              "sourcePath": "test/UINT32_subtract-test.js",
+              "npmPath": "package/test/UINT32_subtract-test.js",
+              "sha256": "53aec6175c1a04c041f6b92f7ccc4312076654f11f1856d5aeecbaf045c5ff1a"
+            },
+            {
+              "sourcePath": "test/UINT32_toNumber-test.js",
+              "npmPath": "package/test/UINT32_toNumber-test.js",
+              "sha256": "f67c3dd50dbf977982ae02dad4bc4f4d87bd1b8857b6c8d72b3691952c366b32"
+            },
+            {
+              "sourcePath": "test/UINT32_toString-test.js",
+              "npmPath": "package/test/UINT32_toString-test.js",
+              "sha256": "717cc0533df584ed8b6140821ff21b67f753d93670f0ba33ef874de09318be71"
+            },
+            {
+              "sourcePath": "test/UINT32_xor-test.js",
+              "npmPath": "package/test/UINT32_xor-test.js",
+              "sha256": "6de1d5b530f41fc8a44f8deea175ffaf395a460ebeaccaad8b5e22dd3a7aeeef"
+            },
+            {
+              "sourcePath": "test/UINT64-test.js",
+              "npmPath": "package/test/UINT64-test.js",
+              "sha256": "bde9f996f8f40618f6cf085a69a3954430c9f4dc72e71d30358ecee13088694f"
+            },
+            {
+              "sourcePath": "test/UINT64_add-test.js",
+              "npmPath": "package/test/UINT64_add-test.js",
+              "sha256": "24ca4ed0d0265e048153ae9165bb72e06e97a3e3e3b1ee972322f147242e8396"
+            },
+            {
+              "sourcePath": "test/UINT64_and-test.js",
+              "npmPath": "package/test/UINT64_and-test.js",
+              "sha256": "1171da272446d1bd9955f1947da7591c0e7f757a5b7cab03762e4f0182a2729c"
+            },
+            {
+              "sourcePath": "test/UINT64_div-test.js",
+              "npmPath": "package/test/UINT64_div-test.js",
+              "sha256": "9448705318995db2c07408453bbf7906c2efd76bb9d096a3ad9fa900be7608c6"
+            },
+            {
+              "sourcePath": "test/UINT64_equals-test.js",
+              "npmPath": "package/test/UINT64_equals-test.js",
+              "sha256": "fa47a2360592ec78471b347b1106e09c36cb8f19f0e2cd4c92c4dc2c0b189e7f"
+            },
+            {
+              "sourcePath": "test/UINT64_greaterThan-test.js",
+              "npmPath": "package/test/UINT64_greaterThan-test.js",
+              "sha256": "3d4b6f179a4edad5d15c4489cc14c3c89ac5779081f7072f1415fca2eecad0ef"
+            },
+            {
+              "sourcePath": "test/UINT64_lessThan-test.js",
+              "npmPath": "package/test/UINT64_lessThan-test.js",
+              "sha256": "854ef5612a504fad20a3f4fa70b9d8739be789b1330033dccde2ce91f48fb47c"
+            },
+            {
+              "sourcePath": "test/UINT64_multiply-test.js",
+              "npmPath": "package/test/UINT64_multiply-test.js",
+              "sha256": "9debc28ba20b7af161fb51430435b2bceb25398591869e63bc370f9ba9aad82b"
+            },
+            {
+              "sourcePath": "test/UINT64_negate-test.js",
+              "npmPath": "package/test/UINT64_negate-test.js",
+              "sha256": "86418b3aab3c1c9e453d345c5be27e342c09bfd5a4c68ca9f160be93f88fb039"
+            },
+            {
+              "sourcePath": "test/UINT64_not-test.js",
+              "npmPath": "package/test/UINT64_not-test.js",
+              "sha256": "2ff51ac2d430279f9b15bd8714352eb44c540c78fc827452c45419d0f529ebc6"
+            },
+            {
+              "sourcePath": "test/UINT64_or-test.js",
+              "npmPath": "package/test/UINT64_or-test.js",
+              "sha256": "8f7c46a7ee50dc19f1539b6efa022d6f709e7299c4a77b00293119c82762af96"
+            },
+            {
+              "sourcePath": "test/UINT64_rotateLeft-test.js",
+              "npmPath": "package/test/UINT64_rotateLeft-test.js",
+              "sha256": "cba7ee1357c6fd2a29c0f68c967d57ad4580e6680d5a511755c70bbb46827e30"
+            },
+            {
+              "sourcePath": "test/UINT64_rotateRight-test.js",
+              "npmPath": "package/test/UINT64_rotateRight-test.js",
+              "sha256": "139760b58bfe6a7435d4949be2f74db3399087fe45655b78305e703f9cb6a259"
+            },
+            {
+              "sourcePath": "test/UINT64_shiftLeft-test.js",
+              "npmPath": "package/test/UINT64_shiftLeft-test.js",
+              "sha256": "90d992e0f992a36eed2e666975afe8e7d0e2465cdc8e586bd85225637546673f"
+            },
+            {
+              "sourcePath": "test/UINT64_shiftRight-test.js",
+              "npmPath": "package/test/UINT64_shiftRight-test.js",
+              "sha256": "243b9cbd18275ddcab3d9920c8ff4238a70a60d4e058d8b9498fa19432d8d61b"
+            },
+            {
+              "sourcePath": "test/UINT64_subtract-test.js",
+              "npmPath": "package/test/UINT64_subtract-test.js",
+              "sha256": "a40cc62894de21a74355fdaf1930df54326144a29fb0aee4ebe746a3ffcbbdff"
+            },
+            {
+              "sourcePath": "test/UINT64_toNumber-test.js",
+              "npmPath": "package/test/UINT64_toNumber-test.js",
+              "sha256": "8eef50062d97b80aca8edc9d9e2f87e5c648d67fce4883c20b273ba81c65df17"
+            },
+            {
+              "sourcePath": "test/UINT64_toString-test.js",
+              "npmPath": "package/test/UINT64_toString-test.js",
+              "sha256": "7bccd704aef2ac6968e381fce9d43776bfb8c0a741f74c266c870cad8373ee97"
+            },
+            {
+              "sourcePath": "test/UINT64_xor-test.js",
+              "npmPath": "package/test/UINT64_xor-test.js",
+              "sha256": "cf73079ecb16c9aa704a6f1ab5a70b079572f8ccb8ba1c13cee348b369378104"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "cuint",
+              "version": "0.2.1",
+              "sha256": "f850f739fa23d56f9cb10a9242899095eed8421da49b6aa31bb9a9c0c183044e"
+            }
+          ],
+          "inspectedSourceFileCount": 53
+        }
+      ],
+      "remainingBlockers": [
+        "Original source headers retain 'Copyright (C) 2013, Pierre Curto' and 'MIT license', but no full grant/conditions were recovered. The npm gitHead source manifest says 0.2.1 rather than 0.2.2, although many shipped code bytes match. Obtain the 0.2.2 original grant/notice or verify absence; neither matching files nor bare MIT labels supplies the missing body."
+      ]
+    },
+    {
+      "name": "dlv",
+      "version": "1.1.3",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/dlv/1.1.3",
+        "registrySha256": "4203b1373bc97e4132afa78a94503a14d6952329544bc20460d4188664348105",
+        "tarballUrl": "https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz",
+        "tarballSha256": "7c316193a4d49e70b3f552e4d52573ecb5b8154075f049cb30c9c2dc9ebb7c90",
+        "lockIntegrity": "sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==",
+        "integrityVerified": true,
+        "gitHead": "e636db817a96e4ca4710b407163fb992748b3b80",
+        "repository": {
+          "url": "git+https://github.com/developit/dlv.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "d0355a98f75d3547e341ff1cbade270c5d5e9b109dd2b03163178c58b8d525d2",
+          "bytes": 794
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [
+        {
+          "label": "Original MIT license reference, whose current destination supplies no grant",
+          "kind": "original-license-reference",
+          "scope": "Original license-reference evidence only; no copyright or full grant body",
+          "notice": "notices/162e2b3e3cda73b1839ede26a0eddb7a140d4e1759a00de6f73dd99fd0ab5d07.txt",
+          "sha256": "162e2b3e3cda73b1839ede26a0eddb7a140d4e1759a00de6f73dd99fd0ab5d07",
+          "bytes": 55,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz",
+            "tarballSha256": "7c316193a4d49e70b3f552e4d52573ecb5b8154075f049cb30c9c2dc9ebb7c90",
+            "memberPath": "package/README.md",
+            "memberSha256": "9c859d9401ff1e3c62d84595ae8fb368787a6e89cd819b811be06abb2cde26db"
+          },
+          "originalTextSha256": "162e2b3e3cda73b1839ede26a0eddb7a140d4e1759a00de6f73dd99fd0ab5d07",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim section",
+            "startCharacter": 1857,
+            "endCharacter": 1912
+          }
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/developit/dlv/tar.gz/e636db817a96e4ca4710b407163fb992748b3b80",
+          "finalUrl": "https://codeload.github.com/developit/dlv/tar.gz/e636db817a96e4ca4710b407163fb992748b3b80",
+          "ref": "e636db817a96e4ca4710b407163fb992748b3b80",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "5433b3b8dabf75c77add9d2388fd49bb603bc3f3e8f8c2fa4c7363c54fc86601",
+          "bytes": 2454,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "README.md",
+              "npmPath": "package/README.md",
+              "sha256": "9c859d9401ff1e3c62d84595ae8fb368787a6e89cd819b811be06abb2cde26db"
+            },
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "621dcd396a2ae770327bfaca6f1ecd0efc7b33c06d28350d373be0f7714e0794"
+            },
+            {
+              "sourcePath": "package.json",
+              "npmPath": "package/package.json",
+              "sha256": "d0355a98f75d3547e341ff1cbade270c5d5e9b109dd2b03163178c58b8d525d2"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "dlv",
+              "version": "1.1.3",
+              "sha256": "d0355a98f75d3547e341ff1cbade270c5d5e9b109dd2b03163178c58b8d525d2"
+            }
+          ],
+          "inspectedSourceFileCount": 6
+        },
+        {
+          "url": "https://oss.ninja/mit/developit/",
+          "finalUrl": "https://oss.ninja/",
+          "refBasis": "license link retained in integrity-verified exact npm README; live author-designated reference, not a historical snapshot",
+          "status": 200,
+          "sha256": "42e8a981a6a469bb946c9c0be993e189f2d4bb0302be87cee88f650dfbc317da",
+          "bytes": 141242
+        }
+      ],
+      "remainingBlockers": [
+        "Exact npm/archive and gitHead README designate https://oss.ninja/mit/developit/, but that request redirects to an unrelated WordPress landing page. No grant accepted from that response. Recover the author's original MIT grant/notice applicable to 1.1.3, or verify absence."
+      ]
+    },
+    {
+      "name": "is-reference",
+      "version": "3.0.3",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/is-reference/3.0.3",
+        "registrySha256": "807ba897a9dd361e2d8fd03fb6ccbd3238108a9135f3c35a522a3ceeed0c765e",
+        "tarballUrl": "https://registry.npmjs.org/is-reference/-/is-reference-3.0.3.tgz",
+        "tarballSha256": "ca4b7634e99eb3e05df043785e554fd6c0bd28197dd9722445c4193a660f33f0",
+        "lockIntegrity": "sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==",
+        "integrityVerified": true,
+        "gitHead": "8bb053129bfabe2f6a7d7ed050159d67ebe82829",
+        "repository": {
+          "url": "git+https://github.com/Rich-Harris/is-reference.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "5ab4c14eb3e5726b0704c624ee6649e8026dc8a14471e7cdc4c7d55699162ec7",
+          "bytes": 1012
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/Rich-Harris/is-reference/tar.gz/8bb053129bfabe2f6a7d7ed050159d67ebe82829",
+          "finalUrl": "https://codeload.github.com/Rich-Harris/is-reference/tar.gz/8bb053129bfabe2f6a7d7ed050159d67ebe82829",
+          "ref": "8bb053129bfabe2f6a7d7ed050159d67ebe82829",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "52008dd7e658a3c4eb63f3423441d1581efdb875e96457ad5397adfd0055f254",
+          "bytes": 7107,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "README.md",
+              "npmPath": "package/README.md",
+              "sha256": "2acc01c7ca4596ec1751045eca54e1f27bd785deaadc09d287d76f0d26cbbf87"
+            },
+            {
+              "sourcePath": "package.json",
+              "npmPath": "package/package.json",
+              "sha256": "5ab4c14eb3e5726b0704c624ee6649e8026dc8a14471e7cdc4c7d55699162ec7"
+            },
+            {
+              "sourcePath": "src/index.js",
+              "npmPath": "package/src/index.js",
+              "sha256": "b6fcd725c7f80bc64317ca51156a82039babe20371a44f07769af2599def7795"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "is-reference",
+              "version": "3.0.3",
+              "sha256": "5ab4c14eb3e5726b0704c624ee6649e8026dc8a14471e7cdc4c7d55699162ec7"
+            }
+          ],
+          "inspectedSourceFileCount": 9
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "keyv",
+      "version": "4.5.4",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/keyv/4.5.4",
+        "registrySha256": "1859a5b5c544a75228f46af65da4c530ef71439e5a2bb581763b484233ecdd6e",
+        "tarballUrl": "https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz",
+        "tarballSha256": "eb26f1c561e57af4a4365e6b54f5f3e745e3963747a93845af1f000a747b6098",
+        "lockIntegrity": "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/jaredwray/keyv.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "e8afd30f2f2a40ef5023928b50fdaed3a3338aa7e1c4e86205413afb05e8a099",
+          "bytes": 1297
+        }
+      },
+      "outcome": "original-attribution-retained-grant-body-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [
+        {
+          "label": "Original Jared Wray copyright and short MIT README notice",
+          "kind": "original-attribution",
+          "scope": "Exact 4.5.4 original attribution; no full MIT grant body",
+          "notice": "notices/7c52c9115673b3e47e2a78c9c911558b7b2f23b144a3927e5fa862e1409727ba.txt",
+          "sha256": "7c52c9115673b3e47e2a78c9c911558b7b2f23b144a3927e5fa862e1409727ba",
+          "bytes": 30,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz",
+            "tarballSha256": "eb26f1c561e57af4a4365e6b54f5f3e745e3963747a93845af1f000a747b6098",
+            "memberPath": "package/README.md",
+            "memberSha256": "c39e1b3f735bb9302eb3cbd84aeb48c4311db64381f9e0a1aa4a61ddf59ce890"
+          },
+          "originalTextSha256": "7c52c9115673b3e47e2a78c9c911558b7b2f23b144a3927e5fa862e1409727ba",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim suffix",
+            "startCharacter": 15599,
+            "endCharacter": 15628
+          }
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/jaredwray/keyv/tar.gz/v4.5.4",
+          "ref": "v4.5.4",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://codeload.github.com/jaredwray/keyv/tar.gz/keyv%404.5.4",
+          "ref": "keyv@4.5.4",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "Retain the original 'MIT © Jared Wray' notice, but obtain the missing MIT grant/conditions applicable to 4.5.4 or verify absence. No gitHead was supplied, and bounded v4.5.4/keyv@4.5.4 source-tag candidates returned 404."
+      ]
+    },
+    {
+      "name": "locate-character",
+      "version": "3.0.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/locate-character/3.0.0",
+        "registrySha256": "e0116ad8b87ee6ec2d53ee1db2659f26a099879c7d8c886d9ab9c182c5380545",
+        "tarballUrl": "https://registry.npmjs.org/locate-character/-/locate-character-3.0.0.tgz",
+        "tarballSha256": "a7925696d7983216a5d4f0383fbcf87b63a9bb36bca205d40fc4ccba1db12585",
+        "lockIntegrity": "sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==",
+        "integrityVerified": true,
+        "gitHead": "4f08a59ec248121f7002abd02ee7b94e8eda06bc",
+        "repository": {
+          "url": "git+https://gitlab.com/Rich-Harris/locate-character.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "b6a378f56e34ba7323a3c7a9e7e265acb49dbd616b1219477ca90fc0fc21b16d",
+          "bytes": 1005
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://gitlab.com/Rich-Harris/locate-character/-/raw/4f08a59ec248121f7002abd02ee7b94e8eda06bc/LICENSE",
+          "ref": "4f08a59ec248121f7002abd02ee7b94e8eda06bc",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://gitlab.com/Rich-Harris/locate-character/-/raw/4f08a59ec248121f7002abd02ee7b94e8eda06bc/README.md",
+          "ref": "4f08a59ec248121f7002abd02ee7b94e8eda06bc",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "MIT appears only as publisher/package/README metadata. LICENSE and README.md at the npm gitHead on the declared GitLab repository returned 404. Recover an original grant/notice tied to 3.0.0 or verify absence; no negative licensing conclusion follows from these responses."
+      ]
+    },
+    {
+      "name": "memoize-weak",
+      "version": "1.0.2",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/memoize-weak/1.0.2",
+        "registrySha256": "eb8c8d9ada7aae1c04959800b0abce3a77829da8b67682f50745cb92cf620f41",
+        "tarballUrl": "https://registry.npmjs.org/memoize-weak/-/memoize-weak-1.0.2.tgz",
+        "tarballSha256": "bef140f268a2c278f6b81570b777e45a61442f89647100dfe8e8521c258e0a94",
+        "lockIntegrity": "sha512-gj39xkrjEw7nCn4nJ1M5ms6+MyMlyiGmttzsqAUsAKn6bYKwuTHh/AO3cKPF8IBrTIYTxb0wWXFs3E//Y8VoWQ==",
+        "integrityVerified": true,
+        "gitHead": "baf3a289513a1a7dd71d34d142db175bc845f3a1",
+        "repository": {
+          "url": "git+https://github.com/timkendrick/memoize-weak.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "ISC",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "3fa8739ad9689acaedad84a7245aaedcebe5d098f067d1ad83f0a0a664f802b7",
+          "bytes": 961
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/timkendrick/memoize-weak/tar.gz/baf3a289513a1a7dd71d34d142db175bc845f3a1",
+          "finalUrl": "https://codeload.github.com/timkendrick/memoize-weak/tar.gz/baf3a289513a1a7dd71d34d142db175bc845f3a1",
+          "ref": "baf3a289513a1a7dd71d34d142db175bc845f3a1",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "527d672657ee1795f0e6177b18c927d88800218f36e76106a1d33132502b1b29",
+          "bytes": 4394,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "README.md",
+              "npmPath": "package/README.md",
+              "sha256": "cd9623bcf310fe27ca24811ce10602a4d5eabe230689d6769c8ba722b0d75355"
+            },
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "f93cdae6831ca5df7e911ebea70a9e3dccffdaf9db53afdcfd615b08bb41a4d6"
+            },
+            {
+              "sourcePath": "lib/memoize.js",
+              "npmPath": "package/lib/memoize.js",
+              "sha256": "f249189e2f2ec9a6764423e421a951336bdaa6bd6725c41b6c26177a38fab8f3"
+            },
+            {
+              "sourcePath": "package.json",
+              "npmPath": "package/package.json",
+              "sha256": "3fa8739ad9689acaedad84a7245aaedcebe5d098f067d1ad83f0a0a664f802b7"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "memoize-weak",
+              "version": "1.0.2",
+              "sha256": "3fa8739ad9689acaedad84a7245aaedcebe5d098f067d1ad83f0a0a664f802b7"
+            }
+          ],
+          "inspectedSourceFileCount": 10
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "natural-compare",
+      "version": "1.4.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/natural-compare/1.4.0",
+        "registrySha256": "8b910f6ec433d27eb98fa7d846e586b7ce571ed92e0da5685d6e77c1689cc9d4",
+        "tarballUrl": "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz",
+        "tarballSha256": "5e5569ecd12064f73632a8c18a45b1d1de4a27b699a671864801f1c35ee779ee",
+        "lockIntegrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==",
+        "integrityVerified": true,
+        "gitHead": "eec83eee67cfac84d6db30cdd65363f155673770",
+        "repository": {
+          "url": "git://github.com/litejs/natural-compare-lite.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "3d99911ccfa0ca34ae0c68bfd32c038b952542e55db7c649c37b11dd1573f6af",
+          "bytes": 992
+        }
+      },
+      "outcome": "linked-author-grant-and-original-attribution-recovered",
+      "textGapRecovered": true,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [
+        {
+          "label": "Author-hosted MIT grant directly designated by the exact package README",
+          "kind": "grant",
+          "scope": "Current author-designated MIT grant; not represented as a historical release snapshot",
+          "notice": "notices/353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d.txt",
+          "sha256": "353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d",
+          "bytes": 1087,
+          "source": {
+            "url": "https://lauri.rooden.ee/mit-license.txt",
+            "finalUrl": "https://lauri.rooden.ee/mit-license.txt",
+            "refBasis": "license link retained in integrity-verified exact npm README; HTTPS form of author-designated HTTP reference, not a historical snapshot",
+            "sha256": "353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d",
+            "bytes": 1087
+          },
+          "originalTextSha256": "353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d",
+          "transformation": "none"
+        }
+      ],
+      "retainedTexts": [
+        {
+          "label": "Author-hosted MIT grant directly designated by the exact package README",
+          "kind": "grant",
+          "scope": "Current author-designated MIT grant; not represented as a historical release snapshot",
+          "notice": "notices/353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d.txt",
+          "sha256": "353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d",
+          "bytes": 1087,
+          "source": {
+            "url": "https://lauri.rooden.ee/mit-license.txt",
+            "finalUrl": "https://lauri.rooden.ee/mit-license.txt",
+            "refBasis": "license link retained in integrity-verified exact npm README; HTTPS form of author-designated HTTP reference, not a historical snapshot",
+            "sha256": "353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d",
+            "bytes": 1087
+          },
+          "originalTextSha256": "353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d",
+          "transformation": "none"
+        },
+        {
+          "label": "Original 2012-2015 Lauri Rooden attribution and license link",
+          "kind": "original-attribution",
+          "scope": "Exact natural-compare 1.4.0 published attribution",
+          "notice": "notices/b1a41a2bed2722f10267002c9cc5d3675622962ad8487c4de28ee720ac92bd2e.txt",
+          "sha256": "b1a41a2bed2722f10267002c9cc5d3675622962ad8487c4de28ee720ac92bd2e",
+          "bytes": 140,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz",
+            "tarballSha256": "5e5569ecd12064f73632a8c18a45b1d1de4a27b699a671864801f1c35ee779ee",
+            "memberPath": "package/README.md",
+            "memberSha256": "ced6cb1fe6ee15a32c63ea8c7e0425454e80456a890c6df3909429530566d40a"
+          },
+          "originalTextSha256": "b1a41a2bed2722f10267002c9cc5d3675622962ad8487c4de28ee720ac92bd2e",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim suffix",
+            "startCharacter": 3126,
+            "endCharacter": 3266
+          }
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/litejs/natural-compare-lite/tar.gz/eec83eee67cfac84d6db30cdd65363f155673770",
+          "finalUrl": "https://codeload.github.com/litejs/natural-compare-lite/tar.gz/eec83eee67cfac84d6db30cdd65363f155673770",
+          "ref": "eec83eee67cfac84d6db30cdd65363f155673770",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "00340c6694cc63f6cdee998cbe4d315c3e5a1dc1c2b8f31315c83712c5737b8b",
+          "bytes": 4006,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "15f5c6fd3086eb01f2beede34bf23a84f3ca2b9f4a87ec86c1bfc2045b99c6e3"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "natural-compare-lite",
+              "version": "1.4.0",
+              "sha256": "ab94d809422924d57c838565a9162115ef14d9ae2b56fe7a0f215e2aff807739"
+            }
+          ],
+          "inspectedSourceFileCount": 8
+        },
+        {
+          "url": "https://lauri.rooden.ee/mit-license.txt",
+          "finalUrl": "https://lauri.rooden.ee/mit-license.txt",
+          "refBasis": "license link retained in integrity-verified exact npm README; HTTPS form of author-designated HTTP reference, not a historical snapshot",
+          "status": 200,
+          "sha256": "353fe762ba595bf1ffe786acf0f5984bb164205901d74f258af195fc8228c67d",
+          "bytes": 1087
+        }
+      ],
+      "remainingBlockers": [],
+      "identityLimit": "The exact npm README links HTTP; HTTPS retrieves the named author's full grant on 2026-10-05. Original dated attribution is separately retained. Repository gitHead names natural-compare-lite 1.4.0, but index.js bytes match; no assumption of identical manifests or historical linked-page contents."
+    },
+    {
+      "name": "saxes",
+      "version": "5.0.1",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/saxes/5.0.1",
+        "registrySha256": "1df750e2577b333a1f9541f364898bebf9205660f41446ca2f1e8cef7d81157f",
+        "tarballUrl": "https://registry.npmjs.org/saxes/-/saxes-5.0.1.tgz",
+        "tarballSha256": "d39d114627a8c29d1c26fb295dc4c1b81e8805a619f827d39177dfc39904a24b",
+        "lockIntegrity": "sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/lddubeau/saxes.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "ISC",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "5730864bc76e7b0e2072c87756c8e73f56e0ca840337fecdedcd3e35e1e191c2",
+          "bytes": 2809
+        }
+      },
+      "outcome": "original-release-grant-recovered",
+      "textGapRecovered": true,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [
+        {
+          "label": "saxes 5.0.1 release LICENSE, including inherited sax ISC notice and historical Mathias Bynens MIT text",
+          "kind": "grant",
+          "scope": "Release-wide saxes license; retain the original historical explanation as supplied",
+          "notice": "notices/0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e.txt",
+          "sha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+          "bytes": 3011,
+          "source": {
+            "url": "https://codeload.github.com/lddubeau/saxes/tar.gz/v5.0.1",
+            "finalUrl": "https://codeload.github.com/lddubeau/saxes/tar.gz/v5.0.1",
+            "ref": "v5.0.1",
+            "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+            "sha256": "e981a2d185618eb5056a7e5e902582f3d17da0b5e27667d5d50972b9463aeecd",
+            "bytes": 171802,
+            "memberPath": "LICENSE",
+            "memberSha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+            "memberBytes": 3011
+          },
+          "originalTextSha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+          "transformation": "none"
+        }
+      ],
+      "retainedTexts": [
+        {
+          "label": "saxes 5.0.1 release LICENSE, including inherited sax ISC notice and historical Mathias Bynens MIT text",
+          "kind": "grant",
+          "scope": "Release-wide saxes license; retain the original historical explanation as supplied",
+          "notice": "notices/0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e.txt",
+          "sha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+          "bytes": 3011,
+          "source": {
+            "url": "https://codeload.github.com/lddubeau/saxes/tar.gz/v5.0.1",
+            "finalUrl": "https://codeload.github.com/lddubeau/saxes/tar.gz/v5.0.1",
+            "ref": "v5.0.1",
+            "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+            "sha256": "e981a2d185618eb5056a7e5e902582f3d17da0b5e27667d5d50972b9463aeecd",
+            "bytes": 171802,
+            "memberPath": "LICENSE",
+            "memberSha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+            "memberBytes": 3011
+          },
+          "originalTextSha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+          "transformation": "none"
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/lddubeau/saxes/tar.gz/v5.0.1",
+          "finalUrl": "https://codeload.github.com/lddubeau/saxes/tar.gz/v5.0.1",
+          "ref": "v5.0.1",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 200,
+          "sha256": "e981a2d185618eb5056a7e5e902582f3d17da0b5e27667d5d50972b9463aeecd",
+          "bytes": 171802,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "README.md",
+              "npmPath": "package/README.md",
+              "sha256": "ade6061f7c778cdd868d9b0f711530e4c1ec1f33767222ce33bb05e295bf6f0c"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "saxes",
+              "version": "5.0.1",
+              "sha256": "d6614eb3d8f62608adea8fbfde612210e6deeb45c073078d1661c92f575e763f"
+            }
+          ],
+          "inspectedSourceFileCount": 78
+        }
+      ],
+      "remainingBlockers": [],
+      "identityLimit": "Exact release tag has saxes 5.0.1 metadata and byte-identical shipped README. Tag-source and npm archive hashes are separate; no binary equality, signed tag, or reproducible build claim."
+    },
+    {
+      "name": "stackback",
+      "version": "0.0.2",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/stackback/0.0.2",
+        "registrySha256": "b165861241d958f5111d25594d60d3be317f38e4f09271bc5a757dc66d409f4c",
+        "tarballUrl": "https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz",
+        "tarballSha256": "3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+        "lockIntegrity": "sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git://github.com/shtylman/node-stackback.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "4d984909b27d37d2f1a379b9cda7292a6e3a133c076df166d740a17514ac6e60",
+          "bytes": 485
+        }
+      },
+      "outcome": "partial-grants-recovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [
+        {
+          "label": "V8 project original BSD-3-Clause grant",
+          "kind": "grant",
+          "scope": "formatstack.js V8-derived code only",
+          "notice": "notices/50e3a58083f6fa4aa476c27ebc77b9ed03f38be59fc4127754999c5689b85152.txt",
+          "sha256": "50e3a58083f6fa4aa476c27ebc77b9ed03f38be59fc4127754999c5689b85152",
+          "bytes": 1598,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz",
+            "tarballSha256": "3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+            "memberPath": "package/formatstack.js",
+            "memberSha256": "3c1191bd7094a36098418e7d1606e2a49e7ee25b5ddee54b0b2514ea1a43b8a7"
+          },
+          "originalTextSha256": "50e3a58083f6fa4aa476c27ebc77b9ed03f38be59fc4127754999c5689b85152",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 1598
+          }
+        }
+      ],
+      "retainedTexts": [
+        {
+          "label": "V8 project original BSD-3-Clause grant",
+          "kind": "grant",
+          "scope": "formatstack.js V8-derived code only",
+          "notice": "notices/50e3a58083f6fa4aa476c27ebc77b9ed03f38be59fc4127754999c5689b85152.txt",
+          "sha256": "50e3a58083f6fa4aa476c27ebc77b9ed03f38be59fc4127754999c5689b85152",
+          "bytes": 1598,
+          "source": {
+            "tarballUrl": "https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz",
+            "tarballSha256": "3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+            "memberPath": "package/formatstack.js",
+            "memberSha256": "3c1191bd7094a36098418e7d1606e2a49e7ee25b5ddee54b0b2514ea1a43b8a7"
+          },
+          "originalTextSha256": "50e3a58083f6fa4aa476c27ebc77b9ed03f38be59fc4127754999c5689b85152",
+          "transformation": "none",
+          "extraction": {
+            "method": "verbatim prefix",
+            "startCharacter": 0,
+            "endCharacter": 1598
+          }
+        }
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/shtylman/node-stackback/tar.gz/v0.0.2",
+          "ref": "v0.0.2",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "Retain the V8 BSD-3-Clause copyright, conditions and disclaimer if formatstack.js is included. The rest of stackback has only its publisher's MIT declaration; recover that original grant/notice or prove those portions absent. The v0.0.2 tag candidate returned 404; this is not a finding of prohibited use."
+      ]
+    },
+    {
+      "name": "stream-events",
+      "version": "1.0.5",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/stream-events/1.0.5",
+        "registrySha256": "12000317668eb434f69203f3e7d36ac672e684e97e62027bcfa9320ad70bc00e",
+        "tarballUrl": "https://registry.npmjs.org/stream-events/-/stream-events-1.0.5.tgz",
+        "tarballSha256": "eec903011a58543802f8cf8666887d2f4676dc878ee7b8be82316355414c03b2",
+        "lockIntegrity": "sha512-E1GUzBSgvct8Jsb3v2X15pjzN1tYebtbLaMg+eBOUOAxgbLoSbT2NS91ckc5lJD1KfLjId+jXJRgo0qnV5Nerg==",
+        "integrityVerified": true,
+        "gitHead": "b53b9533cbccbad8dd50633ab95b6f3fe4e6258e",
+        "repository": {
+          "url": "git+https://github.com/stephenplusplus/stream-events.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "718c946368167b64a813e57e64ef9230bbe3fadda9d61787159de836e328deb6",
+          "bytes": 791
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/stephenplusplus/stream-events/tar.gz/b53b9533cbccbad8dd50633ab95b6f3fe4e6258e",
+          "finalUrl": "https://codeload.github.com/stephenplusplus/stream-events/tar.gz/b53b9533cbccbad8dd50633ab95b6f3fe4e6258e",
+          "ref": "b53b9533cbccbad8dd50633ab95b6f3fe4e6258e",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "ca27f706bfcf36df1f2d024b1f030c17d1af641867c3d19acf90bf22131d1898",
+          "bytes": 2290,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "index.d.ts",
+              "npmPath": "package/index.d.ts",
+              "sha256": "f8db6877bc50d8258bf01d30b18403e990847a7e8c04c00415c00212ffdbca78"
+            },
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "675c3a636bf0bf96b9a89534fbda2ceab56ed1df6e99528301c9f3c62046658d"
+            },
+            {
+              "sourcePath": "package.json",
+              "npmPath": "package/package.json",
+              "sha256": "718c946368167b64a813e57e64ef9230bbe3fadda9d61787159de836e328deb6"
+            },
+            {
+              "sourcePath": "readme.md",
+              "npmPath": "package/readme.md",
+              "sha256": "600cbaaa18ae812f5a929021c1bf4da86973298502445fba99425e28e53d7f26"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "stream-events",
+              "version": "1.0.5",
+              "sha256": "718c946368167b64a813e57e64ef9230bbe3fadda9d61787159de836e328deb6"
+            }
+          ],
+          "inspectedSourceFileCount": 7
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "stubs",
+      "version": "3.0.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/stubs/3.0.0",
+        "registrySha256": "edf412c04a78e5eed4669e9d959e98b8fd1785b3602bd5a42c4dbe7933154e34",
+        "tarballUrl": "https://registry.npmjs.org/stubs/-/stubs-3.0.0.tgz",
+        "tarballSha256": "a0abad0f3dc2bf50af27bffc936352424dd0e866c7df67ced69c08cd0b0c7344",
+        "lockIntegrity": "sha512-PdHt7hHUJKxvTCgbKX9C1V/ftOcjJQgz8BZwNfV5c4B6dcGqlpelTbJ999jBGZ2jYiPAwcX5dP6oBwVlBlUbxw==",
+        "integrityVerified": true,
+        "gitHead": "2d41d3ae487d3bb0b8c7511d254783eaad862d8f",
+        "repository": {
+          "url": "git+https://github.com/stephenplusplus/stubs.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "1518c8f045c120ba3f789a8b8eae76970de7d936e79f25027f662bef59cea5ae",
+          "bytes": 518
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/stephenplusplus/stubs/tar.gz/2d41d3ae487d3bb0b8c7511d254783eaad862d8f",
+          "finalUrl": "https://codeload.github.com/stephenplusplus/stubs/tar.gz/2d41d3ae487d3bb0b8c7511d254783eaad862d8f",
+          "ref": "2d41d3ae487d3bb0b8c7511d254783eaad862d8f",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "495bb37075036bdeec8c34836cc665aa9b65130b0e54e5c9ab3c344ba32f2afe",
+          "bytes": 2098,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "24f3f5146ea77d185182777718f5995eea40d3b93fe1d62fba515eee3e806854"
+            },
+            {
+              "sourcePath": "package.json",
+              "npmPath": "package/package.json",
+              "sha256": "1518c8f045c120ba3f789a8b8eae76970de7d936e79f25027f662bef59cea5ae"
+            },
+            {
+              "sourcePath": "readme.md",
+              "npmPath": "package/readme.md",
+              "sha256": "3bf22b70c2f211ca71420f8465c9173f07beca9e4472111c5a8e6d46a1070de9"
+            },
+            {
+              "sourcePath": "test.js",
+              "npmPath": "package/test.js",
+              "sha256": "c9390ea2fcecc1d6fb3d0a9e992ae2c104eb39e5317a14c8f4feabfd927830b5"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "stubs",
+              "version": "3.0.0",
+              "sha256": "1518c8f045c120ba3f789a8b8eae76970de7d936e79f25027f662bef59cea5ae"
+            }
+          ],
+          "inspectedSourceFileCount": 4
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "tiny-case",
+      "version": "1.0.3",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/tiny-case/1.0.3",
+        "registrySha256": "262c3576516961adbc55122020ee5d6fe533fec66be819ba06582e8e14da1af5",
+        "tarballUrl": "https://registry.npmjs.org/tiny-case/-/tiny-case-1.0.3.tgz",
+        "tarballSha256": "9068b68384076ed70dd30d51a0843cc9d78262b320655009631523bcc2c4fbd7",
+        "lockIntegrity": "sha512-Eet/eeMhkO6TX8mnUteS9zgPbUMQa4I6Kkp5ORiBD5476/m+PIRiumP5tmh5ioJpH7k51Kehawy2UDfsnxxY8Q==",
+        "integrityVerified": true,
+        "gitHead": "5685dec5b69ced78766d12561a4e7a0ae6d4b75d",
+        "repository": {
+          "url": "git+https://github.com/jquense/tiny-case.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "03df3e3f8489f6edf5dad183edfa390b72674bc8aabe148e6e926cfe34205666",
+          "bytes": 277
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/jquense/tiny-case/tar.gz/5685dec5b69ced78766d12561a4e7a0ae6d4b75d",
+          "finalUrl": "https://codeload.github.com/jquense/tiny-case/tar.gz/5685dec5b69ced78766d12561a4e7a0ae6d4b75d",
+          "ref": "5685dec5b69ced78766d12561a4e7a0ae6d4b75d",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "35229fe194029c996e7ca9d44c797dc442d3d8e452bc414ca170e3c957714520",
+          "bytes": 2035,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "README.md",
+              "npmPath": "package/README.md",
+              "sha256": "52f8d1586b12a704133b3e057e2697211f79d3972530a65fa8c20867baf4d667"
+            },
+            {
+              "sourcePath": "index.d.ts",
+              "npmPath": "package/index.d.ts",
+              "sha256": "d683d265c31899e84d856b6c573a293508a997695f14008e9fc28613f98a78f9"
+            },
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "c23cab0343199543c85b483f08294dc7db9662e9eb6ed26881d96d27f2893803"
+            },
+            {
+              "sourcePath": "package.json",
+              "npmPath": "package/package.json",
+              "sha256": "03df3e3f8489f6edf5dad183edfa390b72674bc8aabe148e6e926cfe34205666"
+            },
+            {
+              "sourcePath": "test.js",
+              "npmPath": "package/test.js",
+              "sha256": "72f7494c1b336dd6ad1bc8f22df37cdda171c8f1077f8b4c8db64bdd9a509c92"
+            },
+            {
+              "sourcePath": "tsconfig.json",
+              "npmPath": "package/tsconfig.json",
+              "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "tiny-case",
+              "version": "1.0.3",
+              "sha256": "03df3e3f8489f6edf5dad183edfa390b72674bc8aabe148e6e926cfe34205666"
+            }
+          ],
+          "inspectedSourceFileCount": 8
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "tr46",
+      "version": "0.0.3",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/tr46/0.0.3",
+        "registrySha256": "c20d82a358f998dd564519689765373451149661ebfca1040450f0fdf180878f",
+        "tarballUrl": "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz",
+        "tarballSha256": "164ae1eb32cea353551bbc7f9358dcaae4ffabbe65ec37a92ca464a9570a2a0a",
+        "lockIntegrity": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==",
+        "integrityVerified": true,
+        "gitHead": "a8009f9ce80ff5dbe71dd71e203afe4e4c878d28",
+        "repository": {
+          "url": "git+https://github.com/Sebmaster/tr46.js.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "615087f58ee138fd35c2b414c355b72e36e5919725b8aecc1c34f6a5585b9779",
+          "bytes": 732
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/Sebmaster/tr46.js/tar.gz/a8009f9ce80ff5dbe71dd71e203afe4e4c878d28",
+          "finalUrl": "https://codeload.github.com/Sebmaster/tr46.js/tar.gz/a8009f9ce80ff5dbe71dd71e203afe4e4c878d28",
+          "ref": "a8009f9ce80ff5dbe71dd71e203afe4e4c878d28",
+          "refBasis": "cached exact-version npm gitHead",
+          "status": 200,
+          "sha256": "a8b64c5ed56450b6a6d3e0032112e7c79205feb34cc3696ed9502005750e76a7",
+          "bytes": 4789,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": ".npmignore",
+              "npmPath": "package/.npmignore",
+              "sha256": "220244e94c71eccaccee66cac3ccd592f503f4a21caabbde6b92d16ce4434ba1"
+            },
+            {
+              "sourcePath": "index.js",
+              "npmPath": "package/index.js",
+              "sha256": "8194f9425ce9ab06ea9aebcd64a85ec064d95d61bb349f8f1c98762ad256638e"
+            },
+            {
+              "sourcePath": "lib/.gitkeep",
+              "npmPath": "package/lib/.gitkeep",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+              "sourcePath": "package.json",
+              "npmPath": "package/package.json",
+              "sha256": "615087f58ee138fd35c2b414c355b72e36e5919725b8aecc1c34f6a5585b9779"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "tr46",
+              "version": "0.0.3",
+              "sha256": "615087f58ee138fd35c2b414c355b72e36e5919725b8aecc1c34f6a5585b9779"
+            }
+          ],
+          "inspectedSourceFileCount": 9
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    },
+    {
+      "name": "ts-deepmerge",
+      "version": "8.0.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/ts-deepmerge/8.0.0",
+        "registrySha256": "7565b2996f60654ae984f0354309698e4b4a2db8b6444c9009e6baa12baa4a48",
+        "tarballUrl": "https://registry.npmjs.org/ts-deepmerge/-/ts-deepmerge-8.0.0.tgz",
+        "tarballSha256": "23f4f51cb5e9efdf842ce819e1001ec6b140d1eb9fe8cb511e28750349c38834",
+        "lockIntegrity": "sha512-133O+10nJmVI8w5xeVZPEv5PIrv7iaUae07wv1aH8XJH95Ur6YIhWAPhPyP1YPlbPS9fCVcNIZTu7m8urRVF0A==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git@github.com:voodoocreation/ts-deepmerge.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "ISC",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "3af5675d29de83f3b827384ad0fd181f5f98807a84601886ee2ccb32b4176a47",
+          "bytes": 2160
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/voodoocreation/ts-deepmerge/tar.gz/v8.0.0",
+          "ref": "v8.0.0",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://codeload.github.com/voodoocreation/ts-deepmerge/tar.gz/8.0.0",
+          "finalUrl": "https://codeload.github.com/voodoocreation/ts-deepmerge/tar.gz/8.0.0",
+          "ref": "8.0.0",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 200,
+          "sha256": "0dac92cf4354f49d6bfb819119b265ca4846eefd7ec67aae3945b104840aa46c",
+          "bytes": 83325,
+          "matchingNpmMembers": [
+            {
+              "sourcePath": "cjs/package.json",
+              "npmPath": "package/cjs/package.json",
+              "sha256": "8005a3491db7d92f36ac66369861589f9c47123d3a7c71e643fc2c06168cd45a"
+            }
+          ],
+          "sourceManifests": [
+            {
+              "path": "package.json",
+              "name": "ts-deepmerge",
+              "version": "7.0.3",
+              "sha256": "f052f2929c1016fb9e23c778a083eba8a95d6df2e349eef15bdfcbbfd0096d05"
+            }
+          ],
+          "inspectedSourceFileCount": 19
+        }
+      ],
+      "remainingBlockers": [
+        "The cached exact npm package declares ISC and contains no original grant body. The 8.0.0 source tag candidate reports 7.0.3 in its package.json; reject it as an exact 8.0.0 grant mapping. Obtain publisher-matched 8.0.0 grant/copyright/conditions or verify absence."
+      ]
+    },
+    {
+      "name": "xml-naming",
+      "version": "0.1.0",
+      "input": {
+        "registryUrl": "https://registry.npmjs.org/xml-naming/0.1.0",
+        "registrySha256": "a72e78794e6d9776bce443711ab1768320cf9b1af9369ea67ffbbc255472f828",
+        "tarballUrl": "https://registry.npmjs.org/xml-naming/-/xml-naming-0.1.0.tgz",
+        "tarballSha256": "19347cbcba429e9f240427ce4e5998efe30a47cb9131b5673fc2f0441f7f4f57",
+        "lockIntegrity": "sha512-k8KO9hrMyNk6tUWqUfkTEZbezRRpONVOzUTnc97VnCvyj6Tf9lyUR9EDAIeiVLv56jsMcoXEwjW8Kv5yPY52lw==",
+        "integrityVerified": true,
+        "gitHead": null,
+        "repository": {
+          "url": "git+https://github.com/NaturalIntelligence/xml-naming.git",
+          "type": "git"
+        }
+      },
+      "declaration": {
+        "license": "MIT",
+        "evidenceType": "exact-version publisher metadata and integrity-verified package.json; SPDX alone is not a retained original grant body",
+        "file": {
+          "path": "package/package.json",
+          "sha256": "b69775b228da8fb7f25c98f309bab65a3a27444a2fd6b96f6793ece74be1acdc",
+          "bytes": 1114
+        }
+      },
+      "outcome": "declaration-only-original-grant-unrecovered",
+      "textGapRecovered": false,
+      "artifactInclusion": "unknown; conservative CLI/core input closure is not a compiled dependency map",
+      "grantEvidence": [],
+      "retainedTexts": [],
+      "sourceEvidence": [
+        {
+          "url": "https://codeload.github.com/NaturalIntelligence/xml-naming/tar.gz/v0.1.0",
+          "ref": "v0.1.0",
+          "refBasis": "bounded exact-version release-tag candidate; must compare package identity and source",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "remainingBlockers": [
+        "If this exact input is copied or embedded, obtain its original grant/copyright/conditions text tied to this version, or document verified non-inclusion. Preserve the publisher declaration; do not substitute another package's grant."
+      ]
+    }
+  ]
+}

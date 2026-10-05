@@ -1,0 +1,20 @@
+{
+  "Evidence Reports": {
+    "PORT": "Public report gateway port; Evidence itself stays on loopback 3001.",
+    "EVIDENCE_BASIC_USER": "Generated shared viewer username. Retrieve from service variables.",
+    "EVIDENCE_BASIC_PASSWORD": "Generated shared viewer password. Rotate and redeploy to invalidate credentials.",
+    "EVIDENCE_TELEMETRY_DISABLED": "Disable the official CLI startup and heartbeat telemetry.",
+    "REPORT_DB_HOST": "Private warehouse DNS name, never its public TCP endpoint.",
+    "REPORT_DB_NAME": "Fixture database name; the initial schema expects reports.",
+    "REPORT_DB_USER": "SELECT-only connection role; never use the warehouse administrator.",
+    "REPORT_DB_PASSWORD": "References the warehouse reader secret; initial-volume setup only.",
+    "REPORT_DB_SSLMODE": "disable only for this private fixture network; external PostgreSQL requires verify-full."
+  },
+  "Warehouse": {
+    "POSTGRES_DB": "Initial database name reports; changing it requires a migration.",
+    "POSTGRES_USER": "Private database administrator, not passed to the report service.",
+    "POSTGRES_PASSWORD": "Generated administrator password; initial-volume setup only.",
+    "REPORT_DB_PASSWORD": "Generated restricted role password; rotate with ALTER ROLE, not only an environment edit.",
+    "PGDATA": "Persistent PostgreSQL cluster under the warehouse volume."
+  }
+}

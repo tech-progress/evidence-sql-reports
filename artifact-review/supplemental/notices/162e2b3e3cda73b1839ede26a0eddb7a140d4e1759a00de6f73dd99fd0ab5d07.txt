@@ -1,0 +1,5 @@
+### License
+
+[MIT](https://oss.ninja/mit/developit/)
+
+
